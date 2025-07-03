@@ -29,13 +29,19 @@ export default function ContactPage() {
                   <h3 className="font-bold text-purple-700 mb-3 flex items-center">
                     <span className="mr-2">📍</span> Visit Us
                   </h3>
-                  <p className="text-gray-700">[Your full address]<br/>Kasavanahalli, Bangalore, Karnataka</p>
+                  <p className="text-gray-700">House no: 108, 19th Cross Rd, opposite to SJR VERITY, Tulasi Layout, apartment,<br/>Bengaluru, Karnataka 560035</p>
                 </div>
                 <div className="bg-gray-50 rounded-lg p-6">
                   <h3 className="font-bold text-purple-700 mb-3 flex items-center">
                     <span className="mr-2">📞</span> Call Us
                   </h3>
-                  <p className="text-gray-700">Phone: [Your contact number]<br/>WhatsApp: [Your WhatsApp number]</p>
+                  <p className="text-gray-700">Phone: <a href="tel:+918884750750" className="underline">+91 8884750750</a><br/>WhatsApp: <a href="https://wa.me/918884750750" className="underline">+91 8884750750</a></p>
+                </div>
+                <div className="bg-gray-50 rounded-lg p-6">
+                  <h3 className="font-bold text-purple-700 mb-3 flex items-center">
+                    <span className="mr-2">✉️</span> Email
+                  </h3>
+                  <p className="text-gray-700">Email: <a href="mailto:contact.kidzeekasavanahalli@gmail.com" className="underline">contact.kidzeekasavanahalli@gmail.com</a></p>
                 </div>
                 <div className="bg-gray-50 rounded-lg p-6">
                   <h3 className="font-bold text-purple-700 mb-3 flex items-center">

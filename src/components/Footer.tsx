@@ -37,16 +37,16 @@ export default function Footer() {
               <li>
                 <div className="flex items-center">
                   <span className="text-yellow-400 mr-2">📞</span>
-                  <a href="tel:[Contact Number]" className="text-purple-200 hover:text-white transition-colors text-base">
-                    [Contact Number]
+                  <a href="tel:+918884750750" className="text-purple-200 hover:text-white transition-colors text-base">
+                    +91 8884750750
                   </a>
                 </div>
               </li>
               <li>
                 <div className="flex items-center">
                   <span className="text-yellow-400 mr-2">✉️</span>
-                  <a href="mailto:[Email Address]" className="text-purple-200 hover:text-white transition-colors text-base">
-                    [Email Address]
+                  <a href="mailto:contact.kidzeekasavanahalli@gmail.com" className="text-purple-200 hover:text-white transition-colors text-base">
+                    contact.kidzeekasavanahalli@gmail.com
                   </a>
                 </div>
               </li>
@@ -54,8 +54,8 @@ export default function Footer() {
                 <div className="flex items-start">
                   <span className="text-yellow-400 mr-2 mt-1">📍</span>
                   <span className="text-purple-200 text-base">
-                    [Full Address]<br />
-                    Kasavanahalli, Bangalore
+                    House no: 108, 19th Cross Rd, opposite to SJR VERITY, Tulasi Layout, apartment,<br />
+                    Bengaluru, Karnataka 560035
                   </span>
                 </div>
               </li>

@@ -1,10 +1,10 @@
 // Business and program constants for Kidzee Kasavanahalli
 export const BUSINESS_INFO = {
   name: "Kidzee Kasavanahalli",
-  phone: "[TO BE ADDED]",
-  whatsapp: "[TO BE ADDED]",
-  email: "[TO BE ADDED]",
-  address: "[TO BE ADDED]",
+  phone: "+91 8884750750",
+  whatsapp: "+91 8884750750",
+  email: "contact.kidzeekasavanahalli@gmail.com",
+  address: "House no: 108, 19th Cross Rd, opposite to SJR VERITY, Tulasi Layout, apartment, Bengaluru, Karnataka 560035",
   hours: {
     weekdays: "9:00 AM - 6:00 PM",
     saturday: "10:00 AM - 1:00 PM (Visits Only)",

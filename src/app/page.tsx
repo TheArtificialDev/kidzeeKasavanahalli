@@ -194,16 +194,16 @@ export default function Home() {
 								<div className="text-3xl mb-3">📍</div>
 								<h3 className="font-bold text-purple-700 mb-2 text-lg">Visit Us</h3>
 								<p className="text-gray-600">
-									[Your full address]<br />
-									Kasavanahalli, Bangalore
+									House no: 108, 19th Cross Rd, opposite to SJR VERITY, Tulasi Layout, apartment,<br />
+									Bengaluru, Karnataka 560035
 								</p>
 							</div>
 							<div className="text-center md:text-left">
 								<div className="text-3xl mb-3">📞</div>
 								<h3 className="font-bold text-purple-700 mb-2 text-lg">Contact</h3>
 								<p className="text-gray-600">
-									Phone: [Your contact number]<br />
-									Email: [Your email]
+									Phone: <a href="tel:+918884750750" className="underline">+91 8884750750</a><br />
+									Email: <a href="mailto:contact.kidzeekasavanahalli@gmail.com" className="underline">contact.kidzeekasavanahalli@gmail.com</a>
 								</p>
 							</div>
 							<div className="text-center md:text-left">

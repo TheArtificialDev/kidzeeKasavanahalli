@@ -22,3 +22,22 @@ export const defaultMetadata: Metadata = {
     canonical: "https://kidzeekasavanahalli.in"
   }
 };
+
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Kidzee Kasavanahalli",
+  "description": "Best preschool and daycare in Kasavanahalli, Bangalore",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "House no: 108, 19th Cross Rd, opposite to SJR VERITY, Tulasi Layout, apartment",
+    "addressLocality": "Kasavanahalli",
+    "addressRegion": "Karnataka",
+    "postalCode": "560035",
+    "addressCountry": "IN"
+  },
+  "telephone": "+91 8884750750",
+  "url": "https://kidzeekasavanahalli.in",
+  "openingHours": "Mo-Fr 09:00-18:00, Sa 10:00-13:00",
+  "priceRange": "Contact for details"
+};
