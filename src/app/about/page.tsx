@@ -16,6 +16,32 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Alternating Images and Text */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-4 space-y-12">
+          {["/images/enterance.jpeg", "/images/Office.jpeg", "/images/cctv_tv.jpeg", "/images/toys1.jpeg", "/images/washroom.jpeg"].map((src, index) => (
+            <div
+              key={index}
+              className={`flex flex-col md:flex-row ${index % 2 === 0 ? "md:flex-row-reverse" : ""} items-center gap-8`}
+            >
+              <div className="w-full md:w-1/2">
+                <img
+                  src={src}
+                  alt={`Placeholder image ${index + 1}`}
+                  className="rounded-lg shadow-lg w-full h-auto"
+                />
+              </div>
+              <div className="w-full md:w-1/2">
+                <h3 className="text-2xl font-bold text-purple-700 mb-4">Placeholder Title {index + 1}</h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Placeholder description for image {index + 1}. Replace this text with the actual description of the image.
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* Story & Mission */}
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4">

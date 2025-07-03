@@ -3,7 +3,6 @@ import TestimonialCarousel from "@/components/TestimonialCarousel";
 import StatsSection from "@/components/StatsSection";
 import React from "react";
 import Image from 'next/image';
-import Carousel from '@/components/Carousel';
 
 const programData = [
 	{
@@ -111,10 +110,24 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
-			{/* Image Carousel */}
-			<Carousel images={["/images/enterance.jpeg", "/images/Office.jpeg", "/images/cctv_tv.jpeg", "/images/toys1.jpeg", "/images/washroom.jpeg"]} />
+			{/* Image Marquee with Animation */}
+      <section className="py-16 bg-gray-50">
+        <div className="overflow-hidden">
+          <div className="flex gap-8 animate-marquee">
+            {["/images/enterance.jpeg", "/images/Office.jpeg", "/images/cctv_tv.jpeg", "/images/toys1.jpeg", "/images/washroom.jpeg"].map((src, index) => (
+              <div key={index} className="flex-shrink-0 w-96">
+                <img
+                  src={src}
+                  alt={`Marquee image ${index + 1}`}
+                  className="rounded-lg shadow-lg w-full h-auto"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
-			{/* Trust Section */}
+      {/* Trust Section */}
 			<section className="py-20 bg-white" id="why-choose-us">
 				<div className="max-w-6xl mx-auto px-4">
 					<div className="text-center mb-16">
