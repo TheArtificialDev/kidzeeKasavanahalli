@@ -75,22 +75,28 @@ export default function Home() {
 						<span className="block text-yellow-500">Bloom Into Future Leaders</span>
 					</h1>
 					<p className="text-lg md:text-xl lg:text-2xl text-gray-700 mb-8 leading-relaxed max-w-4xl mx-auto font-medium">
-						<span className="text-purple-600 font-bold">14+ Years of Excellence</span> in Early Childhood Education | 
-						<span className="text-purple-600 font-bold"> 7000+ Happy Children</span> | 
+						<span className="text-purple-600 font-bold">13+  Years of Excellence</span> in Early Childhood Education | 
+						<span className="text-purple-600 font-bold"> 1400+ Happy Children</span> | 
 						<span className="text-purple-600 font-bold"> Kasavanahalli&apos;s Most Trusted Preschool</span>
 					</p>
 					<div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
 						<a
+							href="/activities"
+							className="bg-yellow-400 text-purple-700 font-bold py-3 px-6 rounded-lg hover:bg-yellow-500 transition-colors"
+						>
+							📚 Explore Activities
+						</a>
+						<a
 							href="/contact"
-							className="bg-yellow-400 text-purple-700 font-bold py-4 px-8 rounded-xl shadow-lg hover:bg-yellow-500 hover:shadow-xl transition-all transform hover:-translate-y-1 text-lg border-2 border-yellow-400 hover:border-yellow-500"
+							className="bg-yellow-400 text-purple-700 font-bold py-3 px-6 rounded-lg hover:bg-yellow-500 transition-colors"
 						>
 							📅 Schedule a Visit
 						</a>
 						<a
-							href="#programs"
-							className="border-2 border-purple-700 text-purple-700 font-bold py-4 px-8 rounded-xl hover:bg-purple-700 hover:text-white transition-all text-lg bg-white hover:shadow-lg"
+							href="https://wa.me/918884750750?Hi%20Ma'am"
+							className="bg-yellow-400 text-purple-700 font-bold py-3 px-6 rounded-lg hover:bg-yellow-500 transition-colors"
 						>
-							📚 Explore Programs
+							📱 WhatsApp Us
 						</a>
 					</div>
 					<div className="flex flex-wrap gap-4 justify-center text-sm md:text-base">
@@ -105,7 +111,8 @@ export default function Home() {
 						</span>
 					</div>
 				</div>
-			</section>			{/* Trust Section */}
+			</section>
+			{/* Trust Section */}
 			<section className="py-20 bg-white" id="why-choose-us">
 				<div className="max-w-6xl mx-auto px-4">
 					<div className="text-center mb-16">
@@ -123,7 +130,7 @@ export default function Home() {
 								Experienced Excellence
 							</h3>
 							<p className="text-gray-600 leading-relaxed">
-								14 years serving Kasavanahalli with <strong>7000+ children nurtured</strong> into confident learners
+								14 years serving Kasavanahalli with <strong>1400+ children nurtured</strong> into confident learners
 							</p>
 						</div>
 						<div className="bg-gradient-to-br from-yellow-50 to-white rounded-2xl shadow-lg p-8 text-center hover:shadow-xl transition-shadow border border-yellow-100">

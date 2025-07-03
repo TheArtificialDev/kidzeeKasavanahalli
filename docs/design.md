@@ -3,7 +3,7 @@
 ## 🎯 Website Objectives
 - Drive local parent inquiries and school visits
 - Establish trust and credibility in Kasavanahalli area
-- Showcase 14+ years of experience and 7000+ children served
+- Showcase 13+  years of experience and 1400+ children served
 - Convert visitors to enrolled families through strategic content flow
 - Improve local SEO rankings for preschool searches in Bangalore
 
@@ -31,7 +31,7 @@
 
 ### Hero Section
 **Headline**: "Where Young Minds Bloom Into Future Leaders"
-**Subheadline**: "14+ Years of Excellence in Early Childhood Education | 7000+ Happy Children | Kasavanahalli's Most Trusted Preschool"
+**Subheadline**: "13+  Years of Excellence in Early Childhood Education | 1400+ Happy Children | Kasavanahalli's Most Trusted Preschool"
 
 **Call-to-Action Buttons**:
 - Primary: "Schedule a Visit" (Yellow button)
@@ -46,7 +46,7 @@
 **"Why 1000+ Kasavanahalli Parents Choose Us"**
 
 **4 Key Differentiators**:
-1. **Experienced Excellence** - 14 years serving Kasavanahalli, 7000+ children nurtured
+1. **Experienced Excellence** - 14 years serving Kasavanahalli, 1400+ children nurtured
 2. **Expert Educators** - Teachers with 10+ years experience, trained every 6 months
 3. **Proven Curriculum** - Péntemind philosophy preparing children for any board (ICSE/CBSE/State)
 4. **Complete Care** - From learning to daycare, we handle everything so you can work worry-free
@@ -113,8 +113,8 @@ Rotating testimonials from your provided reviews, focusing on:
 
 ### Quick Stats Section
 **"Our Impact in Numbers"**
-- 14+ Years of Excellence
-- 7000+ Children Nurtured  
+- 13+  Years of Excellence
+- 1400+ Children Nurtured  
 - 1:15 Teacher-Student Ratio
 - 100% Parent Satisfaction
 - 6 Comprehensive Programs
@@ -486,7 +486,7 @@ In 2010, Kidzee Kasavanahalli opened its doors with a simple yet powerful vision
 - **2016**: Introduced advanced extracurricular programs
 - **2019**: Adopted the revolutionary Péntemind curriculum
 - **2022**: Launched hybrid learning options
-- **2024**: Celebrated 7000+ children milestone
+- **2024**: Celebrated 1400+ children milestone
 
 **Today**: We stand proud as Kasavanahalli's most trusted preschool, continuing to set new standards in early childhood education.
 
@@ -527,7 +527,7 @@ In 2010, Kidzee Kasavanahalli opened its doors with a simple yet powerful vision
 **"Transforming Lives, One Child at a Time"**
 
 **By the Numbers**:
-- **7000+ Children** have grown with us over 14 years
+- **1400+ Children** have grown with us over 14 years
 - **98% Parent Satisfaction** rate based on annual surveys
 - **100% School Readiness** - All our graduates successfully transition to primary school
 - **50+ Teachers** trained and mentored in our methodology
@@ -767,8 +767,8 @@ We continue to invest in our facilities, our people, and our programs to ensure 
 ### Trust Building Elements
 
 **Credibility Indicators**:
-- 14+ years of experience prominently displayed
-- 7000+ children served statistic
+- 13+  years of experience prominently displayed
+- 1400+ children served statistic
 - Parent testimonials throughout the site
 - Teacher qualifications and training
 - Safety certifications and measures

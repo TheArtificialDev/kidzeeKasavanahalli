@@ -1,13 +1,13 @@
 const stats = [
   { 
     label: 'Years of Excellence', 
-    value: '14+',
+    value: '13+ ',
     icon: '🏆',
     description: 'Serving Kasavanahalli families'
   },
   { 
     label: 'Children Nurtured', 
-    value: '7000+',
+    value: '1400+',
     icon: '👶',
     description: 'Happy graduates across batches'
   },

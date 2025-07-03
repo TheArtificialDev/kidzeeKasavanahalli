@@ -12,11 +12,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Kidzee Kasavanahalli - Best Preschool in Bangalore",
   description:
-    "14+ years of excellence in Kasavanahalli. Trusted preschool and daycare in Bangalore. 7000+ children nurtured. Péntemind curriculum.",
+    "13+  years of excellence in Kasavanahalli. Trusted preschool and daycare in Bangalore. 1400+ children nurtured. Péntemind curriculum.",
   keywords: "preschool kasavanahalli, kindergarten bangalore, daycare kasavanahalli, best preschool bangalore",
   openGraph: {
     title: "Kidzee Kasavanahalli - Best Preschool in Bangalore",
-    description: "14+ years of excellence in Kasavanahalli. Trusted preschool and daycare in Bangalore.",
+    description: "13+  years of excellence in Kasavanahalli. Trusted preschool and daycare in Bangalore.",
     type: "website",
     locale: "en_IN",
   },

@@ -11,8 +11,8 @@ export const BUSINESS_INFO = {
     sunday: "Closed"
   },
   established: "2010",
-  childrenServed: "7000+",
-  experience: "14+"
+  childrenServed: "1400+",
+  experience: "13+ "
 };
 
 export const PROGRAMS = [

@@ -9,10 +9,10 @@ export default function Footer() {
           <div className="md:col-span-2">
             <h3 className="font-bold text-2xl mb-4 text-yellow-400">Kidzee Kasavanahalli</h3>
             <p className="text-purple-200 text-base mb-4 leading-relaxed">
-              14+ years of excellence in early childhood education. Nurturing young minds to become future leaders through the proven Péntemind curriculum.
+              13+  years of excellence in early childhood education. Nurturing young minds to become future leaders through the proven Péntemind curriculum.
             </p>
             <div className="flex flex-wrap gap-4 text-sm">
-              <span className="bg-purple-700 px-3 py-1 rounded-full">✅ 7000+ Children Served</span>
+              <span className="bg-purple-700 px-3 py-1 rounded-full">✅ 1400+ Children Served</span>
               <span className="bg-purple-700 px-3 py-1 rounded-full">✅ Expert Teachers</span>
               <span className="bg-purple-700 px-3 py-1 rounded-full">✅ Safe Environment</span>
             </div>

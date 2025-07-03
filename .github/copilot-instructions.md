@@ -9,7 +9,7 @@ Building a preschool website for Kidzee Kasavanahalli - a 14-year-old preschool 
 
 ## Business Context
 - **Target Audience**: Parents with children aged 2-6 years in Kasavanahalli, Bangalore
-- **Key Selling Points**: 14+ years experience, 7000+ children served, experienced teachers (10+ years), Péntemind curriculum
+- **Key Selling Points**: 13+  years experience, 1400+ children served, experienced teachers (10+ years), Péntemind curriculum
 - **Programs**: Playgroup (2-3yrs), Nursery (3-4yrs), Junior KG (4-5yrs), Senior KG (5-6yrs)
 - **Additional Services**: Daycare, van service, karate, drawing, tuition classes
 - **Brand Colors**: Purple (#6B46C1), Yellow (#FDE047), Light Purple (#E9D5FF)
@@ -122,8 +122,8 @@ const localBusinessSchema = {
 ## Content Requirements
 
 ### Key Messages to Reinforce
-1. **Experience**: "14+ years of excellence in Kasavanahalli"
-2. **Trust**: "7000+ children nurtured successfully"
+1. **Experience**: "13+  years of excellence in Kasavanahalli"
+2. **Trust**: "1400+ children nurtured successfully"
 3. **Quality**: "Teachers with 10+ years experience"
 4. **Convenience**: "Daycare, van service, worry-free for working parents"
 5. **Curriculum**: "Péntemind philosophy for holistic development"
@@ -132,7 +132,7 @@ const localBusinessSchema = {
 
 #### Home Page Must Include:
 - Hero: "Where Young Minds Bloom Into Future Leaders"
-- Trust indicators: 14+ years, 7000+ children, experienced teachers
+- Trust indicators: 13+  years, 1400+ children, experienced teachers
 - Program overview: All 4 age groups with hours and focus
 - Testimonials carousel
 - Contact CTA with phone/WhatsApp
@@ -311,8 +311,8 @@ export const BUSINESS_INFO = {
     sunday: "Closed"
   },
   established: "2010",
-  childrenServed: "7000+",
-  experience: "14+"
+  childrenServed: "1400+",
+  experience: "13+ "
 };
 
 export const PROGRAMS = [

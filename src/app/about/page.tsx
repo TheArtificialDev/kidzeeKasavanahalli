@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'About Us | Kidzee Kasavanahalli',
-  description: 'Learn about our story, mission, team, facilities, and community involvement. 14+ years of nurturing young minds in Kasavanahalli.',
+  description: 'Learn about our story, mission, team, facilities, and community involvement. 13+  years of nurturing young minds in Kasavanahalli.',
 };
 
 export default function AboutPage() {
@@ -22,7 +22,7 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-8 mb-16">
             <div className="bg-gray-50 rounded-xl p-8">
               <h2 className="text-2xl font-bold text-purple-700 mb-4">Our Story</h2>
-              <p className="text-gray-700 leading-relaxed">Founded in 2010, Kidzee Kasavanahalli has grown from 20 children to 7000+ nurtured, setting new standards in early childhood education. Our journey began with a simple vision: to provide every child with the foundation they need to become confident, capable, and caring individuals.</p>
+              <p className="text-gray-700 leading-relaxed">Founded in 2010, Kidzee Kasavanahalli has grown from 20 children to 1400+ nurtured, setting new standards in early childhood education. Our journey began with a simple vision: to provide every child with the foundation they need to become confident, capable, and caring individuals.</p>
             </div>
             <div className="bg-gray-50 rounded-xl p-8">
               <h2 className="text-2xl font-bold text-purple-700 mb-4">Mission & Vision</h2>
@@ -47,7 +47,7 @@ export default function AboutPage() {
           <h2 className="text-3xl md:text-4xl font-bold text-purple-700 mb-8">Our Impact</h2>
           <div className="grid md:grid-cols-4 gap-6">
             <div className="bg-white rounded-lg p-6">
-              <div className="text-3xl font-bold text-green-500 mb-2">7000+</div>
+              <div className="text-3xl font-bold text-green-500 mb-2">1400+</div>
               <p className="text-gray-600 text-sm">Children Nurtured</p>
             </div>
             <div className="bg-white rounded-lg p-6">

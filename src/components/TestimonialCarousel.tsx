@@ -100,11 +100,11 @@ export default function TestimonialCarousel() {
             <p className="text-gray-600">Parent Satisfaction Rate</p>
           </div>
           <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-yellow-100">
-            <div className="text-3xl font-bold text-purple-700 mb-2">7000+</div>
+            <div className="text-3xl font-bold text-purple-700 mb-2">1400+</div>
             <p className="text-gray-600">Happy Children Graduated</p>
           </div>
           <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-purple-100">
-            <div className="text-3xl font-bold text-purple-700 mb-2">14+</div>
+            <div className="text-3xl font-bold text-purple-700 mb-2">13+ </div>
             <p className="text-gray-600">Years of Excellence</p>
           </div>
         </div>
