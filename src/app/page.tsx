@@ -2,6 +2,8 @@ import ProgramCard from "@/components/ProgramCard";
 import TestimonialCarousel from "@/components/TestimonialCarousel";
 import StatsSection from "@/components/StatsSection";
 import React from "react";
+import Image from 'next/image';
+import Carousel from '@/components/Carousel';
 
 const programData = [
 	{
@@ -63,10 +65,7 @@ export default function Home() {
 			<section className="min-h-[calc(100vh-80px)] bg-gradient-to-br from-purple-50 via-white to-yellow-50 flex items-center relative overflow-hidden">
 				{/* Background decoration */}
 				<div className="absolute inset-0 opacity-5">
-					<div className="absolute top-10 left-10 w-20 h-20 bg-purple-600 rounded-full"></div>
-					<div className="absolute top-32 right-20 w-16 h-16 bg-yellow-400 rounded-full"></div>
-					<div className="absolute bottom-20 left-1/4 w-12 h-12 bg-purple-400 rounded-full"></div>
-					<div className="absolute bottom-32 right-10 w-24 h-24 bg-yellow-300 rounded-full"></div>
+					<Image src="/images/enterance.jpeg" alt="Preschool Entrance" layout="fill" objectFit="cover" className="opacity-20" />
 				</div>
 				
 				<div className="max-w-5xl mx-auto px-4 text-center py-20 relative z-10">
@@ -112,6 +111,9 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
+			{/* Image Carousel */}
+			<Carousel images={["/images/enterance.jpeg", "/images/Office.jpeg", "/images/cctv_tv.jpeg", "/images/toys1.jpeg", "/images/washroom.jpeg"]} />
+
 			{/* Trust Section */}
 			<section className="py-20 bg-white" id="why-choose-us">
 				<div className="max-w-6xl mx-auto px-4">
