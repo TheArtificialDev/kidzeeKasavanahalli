@@ -3,11 +3,12 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 
 interface BlogPageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export default async function BlogPage({ params }: BlogPageProps) {
-  const post = blogPosts.find(p => p.slug === params.slug);
+  const resolvedParams = await params;
+  const post = blogPosts.find(p => p.slug === resolvedParams.slug);
   if (!post) return notFound();
   return (
     <section className="py-20 bg-white min-h-screen">
