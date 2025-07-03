@@ -1,52 +1,11 @@
 import { Metadata } from 'next';
+import { blogPosts } from './data';
+import BlogSearch from '@/components/BlogSearch';
 
 export const metadata: Metadata = {
   title: 'Blogs & Updates | Kidzee Kasavanahalli',
   description: 'Expert insights, parenting tips, child development, and school updates from Kidzee Kasavanahalli. Stay connected with our preschool community.',
 };
-
-const blogCategories = [
-  {
-    title: '🧠 Child Development',
-    topics: [
-      'The Science Behind Play-Based Learning',
-      'Milestone Moments: What to Expect at Each Age',
-      "Supporting Your Child's Emotional Intelligence",
-    ],
-  },
-  {
-    title: '👨‍👩‍👧‍👦 Parenting Tips',
-    topics: [
-      'Morning Routines That Work',
-      'Positive Discipline Strategies',
-      'Screen Time Guidelines for Preschoolers',
-    ],
-  },
-  {
-    title: '🎓 Education Insights',
-    topics: [
-      'School Readiness: More Than Just ABCs and 123s',
-      'Choosing the Right School',
-      'The Importance of Art and Music in Early Education',
-    ],
-  },
-  {
-    title: '🏠 Home Learning Activities',
-    topics: [
-      '10 Educational Activities Using Household Items',
-      'Cooking with Kids: Math and Science in the Kitchen',
-      'Nature Walks: Outdoor Learning Adventures',
-    ],
-  },
-  {
-    title: '📅 School Updates & News',
-    topics: [
-      'Monthly newsletters',
-      'Event announcements',
-      'Program updates',
-    ],
-  },
-];
 
 export default function BlogsPage() {
   return (
@@ -59,24 +18,10 @@ export default function BlogsPage() {
         </div>
       </section>
 
-      {/* Blog Categories */}
-      <section className="py-16 bg-white">
+      {/* Blog Posts Grid and Search Section only (cards below) */}
+      <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4">
-          <div className="grid gap-8 md:grid-cols-2">
-            {blogCategories.map((cat, i) => (
-              <div key={i} className="bg-gray-50 rounded-xl shadow-md p-8 hover:shadow-lg transition-shadow">
-                <h2 className="text-2xl font-bold text-purple-700 mb-6">{cat.title}</h2>
-                <ul className="space-y-3">
-                  {cat.topics.map((topic, j) => (
-                    <li key={j} className="flex items-start">
-                      <span className="text-purple-500 mr-3 mt-1">📖</span>
-                      <span className="text-gray-700 hover:text-purple-700 cursor-pointer transition-colors">{topic}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
+          <BlogSearch blogPosts={blogPosts} />
         </div>
       </section>
 

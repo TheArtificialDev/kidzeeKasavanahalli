@@ -47,13 +47,13 @@ export default function ContactPage() {
                   <h3 className="font-bold text-purple-700 mb-3 flex items-center">
                     <span className="mr-2">🕒</span> Hours
                   </h3>
-                  <p className="text-gray-700">Mon-Fri: 9:00 AM - 6:00 PM<br/>Sat: 10:00 AM - 1:00 PM (Visits Only)<br/>Sun: Closed</p>
+                  <p className="text-gray-700">Mon-Fri: 9:00 AM - 6:00 PM (Visiting Hours)<br/>Sat: 10:00 AM - 1:00 PM (Visits Only)<br/>Sun: Closed</p>
                 </div>
                 <div className="bg-gray-50 rounded-lg p-6">
                   <h3 className="font-bold text-purple-700 mb-3 flex items-center">
                     <span className="mr-2">🚐</span> Van Service
                   </h3>
-                  <p className="text-gray-700">Safe transportation across Kasavanahalli and surrounding areas</p>
+                  <p className="text-gray-700">Safe transportation across Kasavanahalli</p>
                 </div>
               </div>
             </div>

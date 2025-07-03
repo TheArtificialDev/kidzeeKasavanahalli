@@ -74,7 +74,7 @@ export default function Footer() {
             <div className="mb-4 md:mb-0">
               <h4 className="font-semibold text-yellow-400 mb-2">Operating Hours</h4>
               <p className="text-purple-200 text-sm">
-                Mon-Fri: 9:00 AM - 6:00 PM | Sat: 10:00 AM - 1:00 PM (Visits Only) | Sun: Closed
+                Mon-Fri: 9:00 AM - 6:00 PM (Visiting Hours) | Sat: 10:00 AM - 1:00 PM (Visits Only) | Sun: Closed
               </p>
             </div>
             <div className="text-center md:text-right">

@@ -1,6 +1,7 @@
 import ProgramCard from "@/components/ProgramCard";
 import TestimonialCarousel from "@/components/TestimonialCarousel";
 import StatsSection from "@/components/StatsSection";
+import React from "react";
 
 const programData = [
 	{
@@ -54,6 +55,8 @@ const programData = [
 ];
 
 export default function Home() {
+  console.log("Rendering Home component...");
+
 	return (
 		<div>
 			{/* Hero Section - Full viewport height minus header */}
@@ -242,5 +245,5 @@ export default function Home() {
 				</div>
 			</section>
 			</div>
-		);
-	}
+	);
+}
