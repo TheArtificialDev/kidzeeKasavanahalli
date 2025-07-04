@@ -24,9 +24,9 @@ export default function Header() {
         
         {/* Desktop CTA Button */}
         <div className="hidden md:block">
-          <Link href="/contact" className="bg-yellow-400 text-purple-700 px-6 py-3 rounded-lg font-bold text-sm hover:bg-yellow-500 transition-colors shadow-md hover:shadow-lg">
-            Schedule Visit
-          </Link>
+          <a href="https://wa.me/918884750750?text=Hey%20Ma'am,%20Looking%20to%20know%20more%20about%20the%20school" className="bg-yellow-400 text-purple-700 px-6 py-3 rounded-lg font-bold text-sm hover:bg-yellow-500 transition-colors shadow-md hover:shadow-lg">
+            💬 WhatsApp Us
+          </a>
         </div>
 
         {/* Mobile menu button */}
@@ -51,9 +51,9 @@ export default function Header() {
             <li><Link href="/contact" className="block text-gray-700 hover:text-purple-700 transition-colors py-3 px-2 font-semibold" onClick={() => setIsMenuOpen(false)}>Contact</Link></li>
             <li><Link href="/blogs" className="block text-gray-700 hover:text-purple-700 transition-colors py-3 px-2 font-semibold" onClick={() => setIsMenuOpen(false)}>Blogs</Link></li>
             <li className="pt-2">
-              <Link href="/contact" className="block bg-yellow-400 text-purple-700 px-4 py-3 rounded-lg font-bold text-center hover:bg-yellow-500 transition-colors" onClick={() => setIsMenuOpen(false)}>
-                Schedule Visit
-              </Link>
+              <a href="https://wa.me/918884750750?text=Hey%20Ma'am,%20Looking%20to%20know%20more%20about%20the%20school" className="block bg-yellow-400 text-purple-700 px-4 py-3 rounded-lg font-bold text-center hover:bg-yellow-500 transition-colors" onClick={() => setIsMenuOpen(false)}>
+                💬 WhatsApp Us
+              </a>
             </li>
           </ul>
         </div>

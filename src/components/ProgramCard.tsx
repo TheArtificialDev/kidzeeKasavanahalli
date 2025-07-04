@@ -34,15 +34,6 @@ const ProgramCard = ({ title, ageRange, duration, focus, keyBenefits, icon }: Pr
         ))}
       </ul>
     </div>
-    
-    <div className="mt-6 pt-4 border-t border-purple-100">
-      <a 
-        href="/programs" 
-        className="block text-center bg-purple-50 text-purple-700 font-semibold py-2 px-4 rounded-lg hover:bg-purple-100 transition-colors text-sm"
-      >
-        Learn More →
-      </a>
-    </div>
   </div>
 );
 

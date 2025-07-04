@@ -60,9 +60,9 @@ export default function Footer() {
                 </div>
               </li>
               <li>
-                <Link href="/contact" className="inline-block bg-yellow-400 text-purple-800 px-4 py-2 rounded-lg font-bold text-sm hover:bg-yellow-500 transition-colors mt-2">
-                  Schedule Visit
-                </Link>
+                <a href="https://wa.me/918884750750?text=Hey%20Ma'am,%20Looking%20to%20know%20more%20about%20the%20school" className="inline-block bg-yellow-400 text-purple-800 px-4 py-2 rounded-lg font-bold text-sm hover:bg-yellow-500 transition-colors mt-2">
+                  💬 WhatsApp Us
+                </a>
               </li>
             </ul>
           </div>

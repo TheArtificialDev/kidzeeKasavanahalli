@@ -66,10 +66,10 @@ export default function StatsSection() {
             <h3 className="text-2xl font-bold mb-4">Ready to Become Part of Our Success Story?</h3>
             <p className="text-lg mb-6">Join the families who have trusted us with their children&apos;s early education journey.</p>
             <a
-              href="/contact"
+              href="https://wa.me/918884750750?text=Hey%20Ma'am,%20Looking%20to%20know%20more%20about%20the%20school"
               className="inline-block bg-purple-700 text-white font-bold py-3 px-8 rounded-xl shadow-lg hover:bg-purple-800 transition-colors"
             >
-              Schedule Your Visit Today
+              💬 WhatsApp Us Today
             </a>
           </div>
         </div>

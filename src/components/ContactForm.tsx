@@ -17,7 +17,7 @@ export default function ContactForm() {
 
   return (
     <div className="bg-white rounded-2xl shadow-lg p-8 border-2 border-purple-100">
-      <h3 className="text-2xl font-bold text-purple-700 mb-6 text-center">Schedule Your Visit</h3>
+      <h3 className="text-2xl font-bold text-purple-700 mb-6 text-center">Get In Touch</h3>
       <form className="space-y-6" onSubmit={handleSubmit}>
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -154,14 +154,26 @@ export default function ContactForm() {
               Submitting...
             </span>
           ) : (
-            <>📅 Submit Inquiry & Schedule Visit</>
+            <>� Submit Inquiry</>
           )}
         </button>
 
+        <div className="text-center">
+          <p className="text-sm text-gray-600 mb-4">
+            Prefer instant communication? WhatsApp us directly!
+          </p>
+          <a 
+            href="https://wa.me/918884750750?text=Hey%20Ma'am,%20Looking%20to%20know%20more%20about%20contacting%20the%20school"
+            className="inline-block bg-green-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-600 transition-colors"
+          >
+            💬 WhatsApp Us Now
+          </a>
+        </div>
+
         <p className="text-sm text-gray-600 text-center">
-          We&apos;ll contact you within 24 hours to confirm your visit details. 
+          We&apos;ll contact you within 24 hours to provide all the information you need.
           <br />
-          <strong>Call us directly at [Contact Number] for immediate assistance.</strong>
+          <strong>Call us directly at +91 8884750750 for immediate assistance.</strong>
         </p>
       </form>
     </div>

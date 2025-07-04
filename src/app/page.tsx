@@ -85,10 +85,10 @@ export default function Home() {
 							📚 Explore Activities
 						</a>
 						<a
-							href="/contact"
+							href="https://wa.me/918884750750?text=Hey%20Ma'am,%20Looking%20to%20know%20more%20about%20the%20school"
 							className="bg-yellow-400 text-purple-700 font-bold py-3 px-6 rounded-lg hover:bg-yellow-500 transition-colors"
 						>
-							📅 Schedule a Visit
+							� WhatsApp Us
 						</a>
 						<a
 							href="https://wa.me/918884750750?Hi%20Ma'am"
@@ -252,10 +252,10 @@ export default function Home() {
 					
 					<div className="flex flex-col sm:flex-row gap-4 justify-center">
 						<a
-							href="/contact"
+							href="https://wa.me/918884750750?text=Hey%20Ma'am,%20Looking%20to%20know%20more%20about%20the%20school"
 							className="bg-yellow-400 text-purple-700 font-bold py-4 px-8 rounded-xl shadow-lg hover:bg-yellow-500 hover:shadow-xl transition-all transform hover:-translate-y-1 text-lg border-2 border-yellow-400"
 						>
-							📅 Schedule Your Visit Today
+							� WhatsApp Us Today
 						</a>
 						<a
 							href="tel:[Your contact number]"

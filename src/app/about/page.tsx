@@ -132,6 +132,24 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      {/* WhatsApp CTA Section */}
+      <section className="py-16 bg-gradient-to-br from-yellow-50 to-white">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-purple-700 mb-6">
+            Want to Know More About Us?
+          </h2>
+          <p className="text-lg text-gray-600 mb-8">
+            Have questions about our story, facilities, or teaching philosophy? We'd love to chat!
+          </p>
+          <a 
+            href="https://wa.me/918884750750?text=Hey%20Ma'am,%20Looking%20to%20know%20more%20about%20the%20school"
+            className="inline-block bg-yellow-400 text-purple-700 font-bold py-4 px-8 rounded-xl shadow-lg hover:bg-yellow-500 hover:shadow-xl transition-all transform hover:-translate-y-1 text-lg"
+          >
+            💬 WhatsApp Us About Our School
+          </a>
+        </div>
+      </section>
     </div>
   );
 }

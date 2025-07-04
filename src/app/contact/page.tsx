@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import ContactForm from '@/components/ContactForm';
 
 export const metadata: Metadata = {
   title: 'Contact & Location | Kidzee Kasavanahalli',
@@ -17,52 +16,53 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Contact Info & Form */}
+      {/* Contact Information */}
       <section className="py-16 bg-white">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-12">
-            {/* Contact Information */}
-            <div>
-              <h2 className="text-3xl font-bold text-purple-700 mb-8">Get in Touch</h2>
-              <div className="space-y-6">
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-bold text-purple-700 mb-3 flex items-center">
-                    <span className="mr-2">📍</span> Visit Us
-                  </h3>
-                  <p className="text-gray-700">House no: 108, 19th Cross Rd, opposite to SJR VERITY, Tulasi Layout, apartment,<br/>Bengaluru, Karnataka 560035</p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-bold text-purple-700 mb-3 flex items-center">
-                    <span className="mr-2">📞</span> Call Us
-                  </h3>
-                  <p className="text-gray-700">Phone: <a href="tel:+918884750750" className="underline">+91 8884750750</a><br/>WhatsApp: <a href="https://wa.me/918884750750?text=Hi%20Ma'am" className="underline">+91 8884750750</a></p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-bold text-purple-700 mb-3 flex items-center">
-                    <span className="mr-2">✉️</span> Email
-                  </h3>
-                  <p className="text-gray-700">Email: <a href="mailto:contact.kidzeekasavanahalli@gmail.com" className="underline">contact.kidzeekasavanahalli@gmail.com</a></p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-bold text-purple-700 mb-3 flex items-center">
-                    <span className="mr-2">🕒</span> Hours
-                  </h3>
-                  <p className="text-gray-700">Mon-Fri: 9:00 AM - 6:00 PM (Visiting Hours)<br/>Sat: 10:00 AM - 1:00 PM (Visits Only)<br/>Sun: Closed</p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="font-bold text-purple-700 mb-3 flex items-center">
-                    <span className="mr-2">🚐</span> Van Service
-                  </h3>
-                  <p className="text-gray-700">Safe transportation across Kasavanahalli</p>
-                </div>
-              </div>
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-purple-700 mb-8 text-center">Get in Touch</h2>
+          <div className="grid md:grid-cols-2 gap-6 mb-12">
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="font-bold text-purple-700 mb-3 flex items-center">
+                <span className="mr-2">📍</span> Visit Us
+              </h3>
+              <p className="text-gray-700">House no: 108, 19th Cross Rd, opposite to SJR VERITY, Tulasi Layout, apartment,<br/>Bengaluru, Karnataka 560035</p>
             </div>
-
-            {/* Contact Form */}
-            <div>
-              <h2 className="text-3xl font-bold text-purple-700 mb-8">Schedule Your Visit</h2>
-              <ContactForm />
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="font-bold text-purple-700 mb-3 flex items-center">
+                <span className="mr-2">📞</span> Call Us
+              </h3>
+              <p className="text-gray-700">Phone: <a href="tel:+918884750750" className="underline">+91 8884750750</a><br/>WhatsApp: <a href="https://wa.me/918884750750?text=Hi%20Ma'am" className="underline">+91 8884750750</a></p>
             </div>
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="font-bold text-purple-700 mb-3 flex items-center">
+                <span className="mr-2">✉️</span> Email
+              </h3>
+              <p className="text-gray-700">Email: <a href="mailto:contact.kidzeekasavanahalli@gmail.com" className="underline">contact.kidzeekasavanahalli@gmail.com</a></p>
+            </div>
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="font-bold text-purple-700 mb-3 flex items-center">
+                <span className="mr-2">🕒</span> Hours
+              </h3>
+              <p className="text-gray-700">Mon-Fri: 9:00 AM - 6:00 PM (Visiting Hours)<br/>Sat: 10:00 AM - 1:00 PM (Visits Only)<br/>Sun: Closed</p>
+            </div>
+          </div>
+          <div className="bg-gray-50 rounded-lg p-6 mb-8">
+            <h3 className="font-bold text-purple-700 mb-3 flex items-center">
+              <span className="mr-2">🚐</span> Van Service
+            </h3>
+            <p className="text-gray-700">Safe transportation across Kasavanahalli</p>
+          </div>
+          
+          {/* WhatsApp CTA */}
+          <div className="text-center">
+            <h3 className="text-2xl font-bold text-purple-700 mb-4">Ready to Give Your Child the Best Start?</h3>
+            <p className="text-gray-600 mb-6">Contact us directly on WhatsApp for quick responses and to schedule your visit!</p>
+            <a 
+              href="https://wa.me/918884750750?text=Hey%20Ma'am,%20Looking%20to%20know%20more%20about%20contacting%20the%20school" 
+              className="inline-flex items-center bg-yellow-400 text-purple-700 font-bold py-4 px-8 rounded-lg hover:bg-yellow-500 transition-colors text-lg"
+            >
+              💬 WhatsApp Us Now
+            </a>
           </div>
         </div>
       </section>
@@ -93,8 +93,8 @@ export default function ContactPage() {
           </div>
           <div className="text-center mt-8">
             <p className="text-gray-600 mb-4">Have more questions? We&apos;d love to answer them during your visit!</p>
-            <a href="/contact" className="bg-yellow-400 text-purple-700 font-bold py-3 px-6 rounded-lg hover:bg-yellow-500 transition-colors">
-              Schedule a Visit
+            <a href="https://wa.me/918884750750?text=Hey%20Ma'am,%20Looking%20to%20know%20more%20about%20contacting%20the%20school" className="bg-yellow-400 text-purple-700 font-bold py-3 px-6 rounded-lg hover:bg-yellow-500 transition-colors">
+              💬 WhatsApp Us
             </a>
           </div>
         </div>
