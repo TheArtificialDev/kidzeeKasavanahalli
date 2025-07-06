@@ -78,7 +78,7 @@ export default function ProgramsPage() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-purple-700 mb-6">
             <AnimatedText 
-              text="Scientifically Designed Programs for Holistic Development"
+              text="Scientifically Designed Programs for Holistic&nbsp;Development"
               startDelay={300}
               letterDelay={0.15}
               animateByWords={true}
@@ -87,7 +87,7 @@ export default function ProgramsPage() {
           </h1>
           <p className="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
             <AnimatedText 
-              text="From First Steps to School Readiness - We Guide Every Journey"
+              text="From First Steps to School Readiness - We Guide Every&nbsp;Journey"
               startDelay={2000}
               letterDelay={0.03}
             />

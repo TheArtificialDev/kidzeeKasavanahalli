@@ -62,8 +62,8 @@ export default function ActivitiesPage() {
       <ScrollAnimationWrapper animation="fade">
         <section className="bg-gradient-to-br from-purple-50 via-white to-yellow-50 py-20">
           <div className="max-w-4xl mx-auto px-4 text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-purple-700 mb-6">Beyond the Classroom - Nurturing Hidden Talents</h1>
-            <p className="text-xl text-gray-700 mb-8">Where Every Child Discovers Their Special Gift</p>
+            <h1 className="text-4xl md:text-5xl font-bold text-purple-700 mb-6">Beyond the Classroom - Nurturing Hidden&nbsp;Talents</h1>
+            <p className="text-xl text-gray-700 mb-8">Where Every Child Discovers Their Special&nbsp;Gift</p>
           </div>
         </section>
       </ScrollAnimationWrapper>

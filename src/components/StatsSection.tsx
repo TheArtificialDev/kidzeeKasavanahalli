@@ -27,7 +27,7 @@ const stats = [
   },
   { 
     label: 'Safety Record', 
-    value: '100%',
+    value: '98%',
     icon: '🛡️',
     description: 'Zero incidents maintained'
   },
@@ -61,7 +61,7 @@ export default function StatsSection() {
             <ScrollAnimationWrapper key={i} animation="float" delay={i + 1}>
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center border border-white/20 hover:bg-white/20 transition-all">
                 <div className="text-4xl mb-4">{stat.icon}</div>
-                <div className="text-4xl md:text-5xl font-bold text-yellow-400 mb-2">{stat.value}</div>
+                <div className="text-4xl md:text-5xl font-bold text-black mb-2">{stat.value}</div>
                 <div className="font-semibold text-lg mb-2">{stat.label}</div>
                 <div className="text-sm text-purple-200">{stat.description}</div>
               </div>

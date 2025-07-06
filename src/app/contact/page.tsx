@@ -24,10 +24,10 @@ export default function ContactPage() {
         <section className="bg-gradient-to-br from-purple-50 via-white to-yellow-50 py-20">
           <div className="max-w-4xl mx-auto px-4 text-center">
             <ScrollAnimationWrapper animation="slide-up" delay={1}>
-              <h1 className="text-4xl md:text-5xl font-bold text-purple-700 mb-6">Visit Us and See Why We&apos;re Kasavanahalli&apos;s Favorite Preschool</h1>
+              <h1 className="text-4xl md:text-5xl font-bold text-purple-700 mb-6">Visit Us and See Why We&apos;re Kasavanahalli&apos;s Favorite&nbsp;Preschool</h1>
             </ScrollAnimationWrapper>
             <ScrollAnimationWrapper animation="slide-up" delay={2}>
-              <p className="text-xl text-gray-700 mb-8">Your Child&apos;s Future Starts with a Single Visit</p>
+              <p className="text-xl text-gray-700 mb-8">Your Child&apos;s Future Starts with a Single&nbsp;Visit</p>
             </ScrollAnimationWrapper>
           </div>
         </section>

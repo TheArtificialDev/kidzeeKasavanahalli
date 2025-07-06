@@ -24,8 +24,8 @@ export default function AboutPage() {
       <ScrollAnimationWrapper animation="fade">
         <section className="bg-gradient-to-br from-purple-50 via-white to-yellow-50 py-20">
           <div className="max-w-4xl mx-auto px-4 text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-purple-700 mb-6">13 Years of Nurturing Young Minds in Kasavanahalli</h1>
-            <p className="text-xl text-gray-700 mb-8">From a Dream to Bangalore&apos;s Most Trusted Preschool</p>
+            <h1 className="text-4xl md:text-5xl font-bold text-purple-700 mb-6">13&nbsp;Years of Nurturing Young Minds in&nbsp;Kasavanahalli</h1>
+            <p className="text-xl text-gray-700 mb-8">From a Dream to Bangalore&apos;s Most Trusted&nbsp;Preschool</p>
           </div>
         </section>
       </ScrollAnimationWrapper>
@@ -211,21 +211,21 @@ export default function AboutPage() {
             <div className="grid md:grid-cols-3 gap-8">
               <ScrollAnimationWrapper animation="bounce" delay={1}>
                 <div className="bg-white rounded-xl shadow-md p-8">
-                  <div className="text-4xl mb-4">1400+</div>
+                  <div className="text-4xl mb-4 text-black font-bold">1400+</div>
                   <h3 className="font-bold text-purple-700 mb-2">Children Nurtured</h3>
                   <p className="text-gray-600 text-sm">Successful graduates in top schools</p>
                 </div>
               </ScrollAnimationWrapper>
               <ScrollAnimationWrapper animation="bounce" delay={2}>
                 <div className="bg-white rounded-xl shadow-md p-8">
-                  <div className="text-4xl mb-4">13</div>
+                  <div className="text-4xl mb-4 text-black font-bold">13</div>
                   <h3 className="font-bold text-purple-700 mb-2">Years of Excellence</h3>
                   <p className="text-gray-600 text-sm">Serving Kasavanahalli community</p>
                 </div>
               </ScrollAnimationWrapper>
               <ScrollAnimationWrapper animation="bounce" delay={3}>
                 <div className="bg-white rounded-xl shadow-md p-8">
-                  <div className="text-4xl mb-4">100%</div>
+                  <div className="text-4xl mb-4 text-black font-bold">98%</div>
                   <h3 className="font-bold text-purple-700 mb-2">Parent Satisfaction</h3>
                   <p className="text-gray-600 text-sm">Referrals drive our growth</p>
                 </div>

@@ -90,13 +90,13 @@ export default function Home() {
 				<div className="max-w-5xl mx-auto px-4 text-center py-20 relative z-10">
 					<h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-purple-700 mb-6 leading-tight">
 						<AnimatedText 
-							text="Where Young Minds Bloom Into Future Leaders" 
+							text="Where Young Minds Bloom Into Future&nbsp;Leaders" 
 							startDelay={300}
 							letterDelay={0.06}
 						/>
 					</h1>
 					<p className="text-lg md:text-xl lg:text-2xl mb-8 leading-relaxed max-w-4xl mx-auto text-purple-600 font-bold fade-from-top">
-						13+ Years of Excellence in Early Childhood Education | 1400+ Happy Children | Kasavanahalli&apos;s Most Trusted Preschool
+						13+ Years of Excellence in Early Childhood&nbsp;Education | 1400+ Happy&nbsp;Children | Kasavanahalli&apos;s Most Trusted&nbsp;Preschool
 					</p>
 					<div className="flex flex-col sm:flex-row gap-4 justify-center mb-10 simple-fade-delay-1">
 						<a
@@ -114,13 +114,13 @@ export default function Home() {
 					</div>
 					<div className="flex flex-wrap gap-4 justify-center text-sm md:text-base simple-fade-delay-2">
 						<span className="bg-white text-purple-800 px-4 py-3 rounded-full border-2 border-purple-200 shadow-md font-semibold">
-							✅ Trained Teachers (10+ Years Experience)
+							✅ Trained Teachers (10+&nbsp;Years&nbsp;Experience)
 						</span>
 						<span className="bg-white text-purple-800 px-4 py-3 rounded-full border-2 border-purple-200 shadow-md font-semibold">
-							✅ Holistic Péntemind Curriculum
+							✅ Holistic Péntemind&nbsp;Curriculum
 						</span>
 						<span className="bg-white text-purple-800 px-4 py-3 rounded-full border-2 border-purple-200 shadow-md font-semibold">
-							✅ Safe, Hygienic Environment
+							✅ Safe, Hygienic&nbsp;Environment
 						</span>
 					</div>
 				</div>

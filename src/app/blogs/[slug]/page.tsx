@@ -2,9 +2,45 @@ import { blogPosts } from '../data';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import ScrollAnimationWrapper from '@/components/ScrollAnimationWrapper';
+import MarkdownRenderer from '@/components/MarkdownRenderer';
+import { Metadata } from 'next';
 
 interface BlogPageProps {
   params: Promise<{ slug: string }>;
+}
+
+export async function generateMetadata({ params }: BlogPageProps): Promise<Metadata> {
+  const resolvedParams = await params;
+  const post = blogPosts.find(p => p.slug === resolvedParams.slug);
+  
+  if (!post) {
+    return {
+      title: 'Blog Not Found - Kidzee Kasavanahalli',
+    };
+  }
+
+  return {
+    title: post.title,
+    description: post.summary,
+    keywords: post.tags.join(', ') + ', Kidzee Kasavanahalli, preschool Bangalore',
+    openGraph: {
+      title: post.title,
+      description: post.summary,
+      url: `https://kidzeekasavanahalli.in/blogs/${post.slug}`,
+      type: 'article',
+      publishedTime: post.date,
+      authors: ['Kidzee Kasavanahalli'],
+      tags: post.tags,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.summary,
+    },
+    alternates: {
+      canonical: `https://kidzeekasavanahalli.in/blogs/${post.slug}`,
+    },
+  };
 }
 
 export default async function BlogPage({ params }: BlogPageProps) {
@@ -33,7 +69,7 @@ export default async function BlogPage({ params }: BlogPageProps) {
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper animation="slide-up" delay={5}>
             <article className="prose prose-lg max-w-none text-gray-800">
-              {post.content}
+              <MarkdownRenderer content={post.content} />
             </article>
           </ScrollAnimationWrapper>
         </div>

@@ -56,10 +56,10 @@ export default function AreasServedPage() {
       <section className="bg-gradient-to-br from-purple-50 via-white to-yellow-50 py-20">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-purple-700 mb-6">
-            Best Preschool Serving Sarjapur Road, HSR Layout, Bellandur & Surrounding Areas
+            Best Preschool Serving Sarjapur&nbsp;Road, HSR&nbsp;Layout, Bellandur & Surrounding&nbsp;Areas
           </h1>
           <p className="text-xl text-gray-700 mb-8">
-            13+ Years of Excellence | Safe Van Service | 1400+ Happy Families | Affordable Fees
+            13+&nbsp;Years of Excellence | Safe Van&nbsp;Service | 1400+ Happy&nbsp;Families | Affordable&nbsp;Fees
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

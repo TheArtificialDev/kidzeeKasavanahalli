@@ -26,10 +26,10 @@ export default function BlogsPage() {
         <section className="bg-gradient-to-br from-purple-50 via-white to-yellow-50 py-20">
           <div className="max-w-4xl mx-auto px-4 text-center">
             <ScrollAnimationWrapper animation="slide-up" delay={1}>
-              <h1 className="text-4xl md:text-5xl font-bold text-purple-700 mb-6">Expert Insights for Modern Parents</h1>
+              <h1 className="text-4xl md:text-5xl font-bold text-purple-700 mb-6">Expert Insights for Modern&nbsp;Parents</h1>
             </ScrollAnimationWrapper>
             <ScrollAnimationWrapper animation="slide-up" delay={2}>
-              <p className="text-xl text-gray-700 mb-8">Your Guide to Raising Happy, Confident Children</p>
+              <p className="text-xl text-gray-700 mb-8">Your Guide to Raising Happy, Confident&nbsp;Children</p>
             </ScrollAnimationWrapper>
           </div>
         </section>
