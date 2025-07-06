@@ -88,15 +88,15 @@ export default function Home() {
 				</div>
 				
 				<div className="max-w-5xl mx-auto px-4 text-center py-20 relative z-10">
-					<h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-purple-700 mb-6 leading-tight">
+					<h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-purple-700 mb-6 leading-tight" style={{hyphens: 'none', wordBreak: 'keep-all'}}>
 						<AnimatedText 
-							text="Where Young Minds Bloom Into Future&nbsp;Leaders" 
+							text="Where Young&nbsp;Minds Bloom Into Future&nbsp;Leaders" 
 							startDelay={300}
 							letterDelay={0.06}
 						/>
 					</h1>
-					<p className="text-lg md:text-xl lg:text-2xl mb-8 leading-relaxed max-w-4xl mx-auto text-purple-600 font-bold fade-from-top">
-						13+ Years of Excellence in Early Childhood&nbsp;Education | 1400+ Happy&nbsp;Children | Kasavanahalli&apos;s Most Trusted&nbsp;Preschool
+					<p className="text-lg md:text-xl lg:text-2xl mb-8 leading-relaxed max-w-4xl mx-auto text-purple-600 font-bold fade-from-top" style={{hyphens: 'none', wordBreak: 'keep-all'}}>
+						13+&nbsp;Years of Excellence in Early&nbsp;Childhood&nbsp;Education | 1400+&nbsp;Happy&nbsp;Children | Kasavanahalli&apos;s Most&nbsp;Trusted&nbsp;Preschool
 					</p>
 					<div className="flex flex-col sm:flex-row gap-4 justify-center mb-10 simple-fade-delay-1">
 						<a
