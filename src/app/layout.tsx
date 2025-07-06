@@ -10,6 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://kidzeekasavanahalli.in'),
   title: "Kidzee Kasavanahalli - Best Preschool in Bangalore | Top Play School Near Me",
   description:
     "Best preschool in Kasavanahalli, Bangalore with 13+ years of excellence. Top play school with daycare, activity center & Péntemind curriculum. 1400+ children nurtured. Safe environment, trained teachers, affordable fees. Enrollment open!",

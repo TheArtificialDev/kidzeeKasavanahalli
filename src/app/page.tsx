@@ -1,7 +1,5 @@
 import { Metadata } from 'next';
 import ProgramCard from "@/components/ProgramCard";
-import TestimonialCarousel from "@/components/TestimonialCarousel";
-import StatsSection from "@/components/StatsSection";
 import AnimatedText from "@/components/AnimatedText";
 import ScrollAnimationWrapper from "@/components/ScrollAnimationWrapper";
 import React from "react";
@@ -75,10 +73,7 @@ const programData = [
 	},
 ];
 
-export default function Home() {
-  console.log("Rendering Home component...");
-
-	return (
+export default function Home() {	return (
 		<div>
 			{/* Hero Section - Full viewport height minus header */}
 			<section className="min-h-[calc(100vh-80px)] bg-gradient-to-br from-purple-50 via-white to-yellow-50 flex items-center relative overflow-hidden">
@@ -287,16 +282,6 @@ export default function Home() {
 					</ScrollAnimationWrapper>
 				</div>
 			</section>
-
-				{/* Stats Section */}
-				<ScrollAnimationWrapper animation="fade-blur">
-					<StatsSection />
-				</ScrollAnimationWrapper>
-
-				{/* Testimonials */}
-				<ScrollAnimationWrapper animation="glide">
-					<TestimonialCarousel />
-				</ScrollAnimationWrapper>
 
 				{/* FAQ Section */}
 				<ScrollAnimationWrapper animation="fade">

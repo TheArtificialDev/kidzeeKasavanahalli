@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: 'Activity Center & Extracurricular Programs | Kidzee Kasavanahalli',
     description: 'Premium activity center offering karate, art, music, tuition, sports for children. Flexible online/offline classes with expert instructors.',
     url: 'https://kidzeekasavanahalli.in/activities',
-    images: ['/images/kidzee-kasavanahalli-preschool.jpg'],
+    images: ['/images/graduation day.jpg'],
   },
   alternates: {
     canonical: 'https://kidzeekasavanahalli.in/activities',

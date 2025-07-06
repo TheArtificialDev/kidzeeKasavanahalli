@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     title: 'Preschool Programs & Curriculum | Kidzee Kasavanahalli - Playgroup to Senior KG',
     description: 'Scientifically designed preschool programs with Péntemind curriculum. Playgroup to Senior KG programs for holistic child development.',
     url: 'https://kidzeekasavanahalli.in/programs',
-    images: ['/images/kidzee-kasavanahalli-preschool.jpg'],
+    images: ['/images/graduation day.jpg'],
   },
   alternates: {
     canonical: 'https://kidzeekasavanahalli.in/programs',
