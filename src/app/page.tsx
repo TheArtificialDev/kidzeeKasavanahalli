@@ -96,7 +96,7 @@ export default function Home() {
 						/>
 					</h1>
 					<p className="text-lg md:text-xl lg:text-2xl mb-8 leading-relaxed max-w-4xl mx-auto text-purple-600 font-bold fade-from-top">
-						13+ Years of Excellence in Early Childhood Education | 1400+ Happy Children | Kasavanahalli's Most Trusted Preschool
+						13+ Years of Excellence in Early Childhood Education | 1400+ Happy Children | Kasavanahalli&apos;s Most Trusted Preschool
 					</p>
 					<div className="flex flex-col sm:flex-row gap-4 justify-center mb-10 simple-fade-delay-1">
 						<a
@@ -150,9 +150,11 @@ export default function Home() {
                 { src: "/images/website_1.jpeg", alt: "Happy children at Kidzee Kasavanahalli enjoying learning activities and playtime" }
               ].map((item, index) => (
                 <div key={`first-${index}`} className="flex-shrink-0 w-96">
-                  <img
+                  <Image
                     src={item.src}
                     alt={item.alt}
+                    width={384}
+                    height={256}
                     className="rounded-lg shadow-lg w-full h-auto"
                   />
                 </div>
@@ -177,9 +179,11 @@ export default function Home() {
                 { src: "/images/website_1.jpeg", alt: "Happy children at Kidzee Kasavanahalli enjoying learning activities and playtime" }
               ].map((item, index) => (
                 <div key={`second-${index}`} className="flex-shrink-0 w-96">
-                  <img
+                  <Image
                     src={item.src}
                     alt={item.alt}
+                    width={384}
+                    height={256}
                     className="rounded-lg shadow-lg w-full h-auto"
                   />
                 </div>
@@ -317,7 +321,7 @@ export default function Home() {
 						<div className="grid gap-8 md:grid-cols-2">
 							<ScrollAnimationWrapper animation="slide-left">
 								<div className="bg-white rounded-lg shadow-md p-8">
-									<h3 className="text-2xl font-bold text-purple-700 mb-4">Why We're the Top Choice for Preschool Enrollment</h3>
+									<h3 className="text-2xl font-bold text-purple-700 mb-4">Why We&apos;re the Top Choice for Preschool Enrollment</h3>
 									<ul className="space-y-3 text-gray-700">
 										<li>✓ <strong>Proven Track Record:</strong> 1400+ successful graduates now excelling in top schools</li>
 										<li>✓ <strong>Expert Faculty:</strong> Teachers with 10+ years experience in early childhood education</li>
@@ -344,7 +348,7 @@ export default function Home() {
 									</div>
 									<p className="mt-4 text-gray-600">
 										Our <strong>safe van service</strong> ensures convenient pickup and drop for working parents across 
-										Bangalore's tech corridors. GPS tracking and trained drivers guarantee your child's safety.
+										Bangalore&apos;s tech corridors. GPS tracking and trained drivers guarantee your child&apos;s safety.
 									</p>
 								</div>
 							</ScrollAnimationWrapper>

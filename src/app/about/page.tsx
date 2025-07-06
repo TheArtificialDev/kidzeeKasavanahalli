@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 import ScrollAnimationWrapper from '@/components/ScrollAnimationWrapper';
 
 export const metadata: Metadata = {
@@ -37,9 +38,11 @@ export default function AboutPage() {
             <ScrollAnimationWrapper animation="slide-left" delay={1}>
               <div className="flex flex-col md:flex-row-reverse items-center gap-8">
                 <div className="w-full md:w-1/2">
-                  <img
+                  <Image
                     src="/images/enterance.jpeg"
                     alt="Welcoming entrance of Kidzee Kasavanahalli preschool with safety gate and colorful entrance"
+                    width={500}
+                    height={400}
                     className="rounded-lg shadow-lg w-full h-auto"
                   />
                 </div>
@@ -56,16 +59,18 @@ export default function AboutPage() {
             <ScrollAnimationWrapper animation="slide-right" delay={1}>
               <div className="flex flex-col md:flex-row items-center gap-8">
                 <div className="w-full md:w-1/2">
-                  <img
+                  <Image
                     src="/images/Office.jpeg"
                     alt="Principal office at Kidzee Kasavanahalli with comfortable seating for parent consultations"
+                    width={500}
+                    height={400}
                     className="rounded-lg shadow-lg w-full h-auto"
                   />
                 </div>
                 <div className="w-full md:w-1/2">
                   <h3 className="text-2xl font-bold text-purple-700 mb-4">Always Available for Parents</h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Our comfortable office space is designed for meaningful conversations between parents and educators. With 13 years of experience, our principal and staff are always ready to discuss your child's progress, address concerns, and collaborate on your little one's development journey. Open communication is at the heart of our partnership with families.
+                    Our comfortable office space is designed for meaningful conversations between parents and educators. With 13 years of experience, our principal and staff are always ready to discuss your child&apos;s progress, address concerns, and collaborate on your little one&apos;s development journey. Open communication is at the heart of our partnership with families.
                   </p>
                 </div>
               </div>
@@ -75,9 +80,11 @@ export default function AboutPage() {
             <ScrollAnimationWrapper animation="slide-left" delay={1}>
               <div className="flex flex-col md:flex-row-reverse items-center gap-8">
                 <div className="w-full md:w-1/2">
-                  <img
+                  <Image
                     src="/images/cctv_tv.jpeg"
                     alt="CCTV monitoring system at Kidzee Kasavanahalli ensuring child safety and security"
+                    width={500}
+                    height={400}
                     className="rounded-lg shadow-lg w-full h-auto"
                   />
                 </div>
@@ -94,16 +101,18 @@ export default function AboutPage() {
             <ScrollAnimationWrapper animation="slide-right" delay={1}>
               <div className="flex flex-col md:flex-row items-center gap-8">
                 <div className="w-full md:w-1/2">
-                  <img
+                  <Image
                     src="/images/toys1.jpeg"
                     alt="Colorful play area with educational toys and activities at Kidzee Kasavanahalli"
+                    width={500}
+                    height={400}
                     className="rounded-lg shadow-lg w-full h-auto"
                   />
                 </div>
                 <div className="w-full md:w-1/2">
                   <h3 className="text-2xl font-bold text-purple-700 mb-4">Learning Through Joyful Play</h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Our vibrant play areas are carefully designed with age-appropriate, educational toys that spark creativity and learning. From building blocks that develop motor skills to interactive games that enhance cognitive abilities, every toy serves a purpose in your child's holistic development. Play isn't just fun here—it's the foundation of growth.
+                    Our vibrant play areas are carefully designed with age-appropriate, educational toys that spark creativity and learning. From building blocks that develop motor skills to interactive games that enhance cognitive abilities, every toy serves a purpose in your child&apos;s holistic development. Play isn&apos;t just fun here—it&apos;s the foundation of growth.
                   </p>
                 </div>
               </div>
@@ -113,16 +122,18 @@ export default function AboutPage() {
             <ScrollAnimationWrapper animation="slide-left" delay={1}>
               <div className="flex flex-col md:flex-row-reverse items-center gap-8">
                 <div className="w-full md:w-1/2">
-                  <img
+                  <Image
                     src="/images/washroom.jpeg"
                     alt="Clean, child-friendly washrooms at Kidzee Kasavanahalli with proper hygiene facilities"
+                    width={500}
+                    height={400}
                     className="rounded-lg shadow-lg w-full h-auto"
                   />
                 </div>
                 <div className="w-full md:w-1/2">
                   <h3 className="text-2xl font-bold text-purple-700 mb-4">Hygiene & Independence Combined</h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Our spotlessly maintained, child-sized washrooms promote independence while ensuring the highest hygiene standards. With easy-to-reach fixtures, proper ventilation, and constant supervision when needed, we help children develop essential life skills in a clean, comfortable environment. Your child's health and dignity are our top priorities.
+                    Our spotlessly maintained, child-sized washrooms promote independence while ensuring the highest hygiene standards. With easy-to-reach fixtures, proper ventilation, and constant supervision when needed, we help children develop essential life skills in a clean, comfortable environment. Your child&apos;s health and dignity are our top priorities.
                   </p>
                 </div>
               </div>

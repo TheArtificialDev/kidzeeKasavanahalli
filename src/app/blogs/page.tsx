@@ -55,7 +55,7 @@ export default function BlogsPage() {
             </ScrollAnimationWrapper>
             <ScrollAnimationWrapper animation="slide-up" delay={2}>
               <p className="text-lg text-gray-600 mb-8">
-                Want to discuss any of our blog topics or need personalized parenting advice? Let's chat!
+                Want to discuss any of our blog topics or need personalized parenting advice? Let&apos;s chat!
               </p>
             </ScrollAnimationWrapper>
             <ScrollAnimationWrapper animation="scale" delay={3}>
