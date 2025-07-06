@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     title: 'Preschool Programs & Curriculum | Kidzee Kasavanahalli - Playgroup to Senior KG',
     description: 'Scientifically designed preschool programs with Péntemind curriculum. Playgroup to Senior KG programs for holistic child development.',
     url: 'https://kidzeekasavanahalli.in/programs',
-    images: ['/images/graduation day.jpg'],
+    images: ['/images/kidzee-kasavanahalli-preschool.jpg'],
   },
   alternates: {
     canonical: 'https://kidzeekasavanahalli.in/programs',
@@ -191,12 +191,7 @@ export default function ProgramsPage() {
       </ScrollAnimationWrapper>
 
       {/* FAQ Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-purple-700 mb-6 text-center">Frequently Asked Questions</h2>
-          <FAQSection faqs={programsFAQs} />
-        </div>
-      </section>
+      <FAQSection faqs={programsFAQs} />
     </div>
   );
 }

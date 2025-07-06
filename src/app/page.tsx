@@ -4,7 +4,6 @@ import AnimatedText from "@/components/AnimatedText";
 import ScrollAnimationWrapper from "@/components/ScrollAnimationWrapper";
 import React from "react";
 import Image from 'next/image';
-import Link from 'next/link';
 import FAQSection, { homeFAQs } from "@/components/FAQSection";
 
 export const metadata: Metadata = {
@@ -305,8 +304,8 @@ export default function Home() {	return (
 							</div>
 						</ScrollAnimationWrapper>
 						
-						<div className="grid gap-8 md:grid-cols-2">
-							<ScrollAnimationWrapper animation="slide-left">
+						<div className="max-w-2xl mx-auto">
+							<ScrollAnimationWrapper animation="slide-up">
 								<div className="bg-white rounded-lg shadow-md p-8">
 									<h3 className="text-2xl font-bold text-purple-700 mb-4">Why We&apos;re the Top Choice for Preschool Enrollment</h3>
 									<ul className="space-y-3 text-gray-700">
@@ -317,26 +316,6 @@ export default function Home() {	return (
 										<li>✓ <strong>Affordable Excellence:</strong> Premium education at competitive fees</li>
 										<li>✓ <strong>Working Parents Solution:</strong> Daycare, van service, and extended hours</li>
 									</ul>
-								</div>
-							</ScrollAnimationWrapper>
-							
-							<ScrollAnimationWrapper animation="slide-right">
-								<div className="bg-white rounded-lg shadow-md p-8">
-									<h3 className="text-2xl font-bold text-purple-700 mb-4">Areas We Serve with Safe Transportation</h3>
-									<div className="grid grid-cols-2 gap-2 text-gray-700">
-										<div>• <Link href="/areas-served" className="hover:text-purple-700">Kasavanahalli</Link></div>
-										<div>• <Link href="/areas-served" className="hover:text-purple-700">Sarjapur Road</Link></div>
-										<div>• <Link href="/areas-served" className="hover:text-purple-700">HSR Layout</Link></div>
-										<div>• <Link href="/areas-served" className="hover:text-purple-700">Bellandur</Link></div>
-										<div>• <Link href="/areas-served" className="hover:text-purple-700">Electronic City</Link></div>
-										<div>• <Link href="/areas-served" className="hover:text-purple-700">Marathahalli</Link></div>
-										<div>• <Link href="/areas-served" className="hover:text-purple-700">Whitefield</Link></div>
-										<div>• <Link href="/areas-served" className="hover:text-purple-700">Haralur Road</Link></div>
-									</div>
-									<p className="mt-4 text-gray-600">
-										Our <strong>safe van service</strong> ensures convenient pickup and drop for working parents across 
-										Bangalore&apos;s tech corridors. GPS tracking and trained drivers guarantee your child&apos;s safety.
-									</p>
 								</div>
 							</ScrollAnimationWrapper>
 						</div>

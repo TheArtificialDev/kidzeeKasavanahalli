@@ -91,7 +91,7 @@ export const programsFAQs: FAQItem[] = [
   },
   {
     question: "What is the teacher-to-student ratio at Kidzee Kasavanahalli?",
-    answer: "We maintain an optimal teacher-to-student ratio of 1:8 for Playgroup/Nursery and 1:12 for Junior/Senior KG. This ensures personalized attention for every child and effective learning outcomes."
+    answer: "We maintain an optimal teacher-to-student ratio of 1:15 in all classes. This ensures personalized attention for every child and effective learning outcomes."
   },
   {
     question: "Are the teachers at Kidzee Kasavanahalli qualified?",

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: 'Activity Center & Extracurricular Programs | Kidzee Kasavanahalli',
     description: 'Premium activity center offering karate, art, music, tuition, sports for children. Flexible online/offline classes with expert instructors.',
     url: 'https://kidzeekasavanahalli.in/activities',
-    images: ['/images/graduation day.jpg'],
+    images: ['/images/kidzee-kasavanahalli-preschool.jpg'],
   },
   alternates: {
     canonical: 'https://kidzeekasavanahalli.in/activities',
@@ -159,12 +159,7 @@ export default function ActivitiesPage() {
 
       {/* FAQ Section */}
       <ScrollAnimationWrapper animation="fade">
-        <section className="py-16 bg-white">
-          <div className="max-w-4xl mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-purple-700 mb-8 text-center">Frequently Asked Questions</h2>
-            <FAQSection faqs={activitiesFAQs} />
-          </div>
-        </section>
+        <FAQSection faqs={activitiesFAQs} />
       </ScrollAnimationWrapper>
     </div>
   );
