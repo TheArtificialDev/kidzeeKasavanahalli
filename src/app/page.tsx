@@ -92,7 +92,9 @@ export default function Home() {
 						<AnimatedText 
 							text="Where Young&nbsp;Minds Bloom Into Future&nbsp;Leaders" 
 							startDelay={300}
-							letterDelay={0.06}
+							letterDelay={0.15}
+							animateByWords={true}
+							className="inline-block"
 						/>
 					</h1>
 					<p className="text-lg md:text-xl lg:text-2xl mb-8 leading-relaxed max-w-4xl mx-auto text-purple-600 font-bold fade-from-top" style={{hyphens: 'none', wordBreak: 'keep-all'}}>
