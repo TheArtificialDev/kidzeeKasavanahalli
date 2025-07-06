@@ -5,7 +5,7 @@
 # Copilot Instructions - Kidzee Kasavanahalli Website
 
 ## Project Overview
-Building a preschool website for Kidzee Kasavanahalli - a 14-year-old preschool in Bangalore, India. Primary goal: Convert local parents into enrolled families through trust-building and clear information presentation.
+Building a preschool website for Kidzee Kasavanahalli - a 13-year-old preschool in Bangalore, India. Primary goal: Convert local parents into enrolled families through trust-building and clear information presentation.
 
 ## Business Context
 - **Target Audience**: Parents with children aged 2-6 years in Kasavanahalli, Bangalore
@@ -310,7 +310,7 @@ export const BUSINESS_INFO = {
     saturday: "10:00 AM - 1:00 PM (Visits Only)",
     sunday: "Closed"
   },
-  established: "2010",
+  established: "2012",
   childrenServed: "1400+",
   experience: "13+ "
 };

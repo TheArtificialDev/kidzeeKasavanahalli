@@ -24,6 +24,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li><Link href="/programs" className="text-purple-200 hover:text-white transition-colors text-base">Programs</Link></li>
               <li><Link href="/activities" className="text-purple-200 hover:text-white transition-colors text-base">Activities</Link></li>
+              <li><Link href="/areas-served" className="text-purple-200 hover:text-white transition-colors text-base">Areas Served</Link></li>
               <li><Link href="/about" className="text-purple-200 hover:text-white transition-colors text-base">About Us</Link></li>
               <li><Link href="/contact" className="text-purple-200 hover:text-white transition-colors text-base">Contact</Link></li>
               <li><Link href="/blogs" className="text-purple-200 hover:text-white transition-colors text-base">Blogs</Link></li>
@@ -45,8 +46,8 @@ export default function Footer() {
               <li>
                 <div className="flex items-center">
                   <span className="text-yellow-400 mr-2">✉️</span>
-                  <a href="mailto:contact.kidzeekasavanahalli@gmail.com" className="text-purple-200 hover:text-white transition-colors text-base">
-                    contact.kidzeekasavanahalli@gmail.com
+                  <a href="mailto:contactkidzeekasavanahalli@gmail.com" className="text-purple-200 hover:text-white transition-colors text-base">
+                    contactkidzeekasavanahalli@gmail.com
                   </a>
                 </div>
               </li>
@@ -62,6 +63,11 @@ export default function Footer() {
               <li>
                 <a href="https://wa.me/918884750750?text=Hey%20Ma'am,%20Looking%20to%20know%20more%20about%20the%20school" className="inline-block bg-yellow-400 text-purple-800 px-4 py-2 rounded-lg font-bold text-sm hover:bg-yellow-500 transition-colors mt-2">
                   💬 WhatsApp Us
+                </a>
+              </li>
+              <li>
+                <a href="tel:+918884750750" className="inline-block bg-purple-600 text-white px-4 py-2 rounded-lg font-bold text-sm hover:bg-purple-700 transition-colors mt-2">
+                  📞 Call Now
                 </a>
               </li>
             </ul>

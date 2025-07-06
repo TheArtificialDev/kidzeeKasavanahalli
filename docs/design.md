@@ -46,7 +46,7 @@
 **"Why 1000+ Kasavanahalli Parents Choose Us"**
 
 **4 Key Differentiators**:
-1. **Experienced Excellence** - 14 years serving Kasavanahalli, 1400+ children nurtured
+1. **Experienced Excellence** - 13 years serving Kasavanahalli, 1400+ children nurtured
 2. **Expert Educators** - Teachers with 10+ years experience, trained every 6 months
 3. **Proven Curriculum** - Péntemind philosophy preparing children for any board (ICSE/CBSE/State)
 4. **Complete Care** - From learning to daycare, we handle everything so you can work worry-free
@@ -471,17 +471,17 @@ Form Fields:
 ## 👥 PAGE 5: ABOUT US
 
 ### Hero Section
-**"14 Years of Nurturing Young Minds in Kasavanahalli"**
+**"13 Years of Nurturing Young Minds in Kasavanahalli"**
 **"From a Dream to Bangalore's Most Trusted Preschool"**
 
 ### Our Story
 
 **"The Journey That Started with Love"**
 
-In 2010, Kidzee Kasavanahalli opened its doors with a simple yet powerful vision: to provide every child in our community with the foundation they need to become confident, capable, and caring individuals.
+In 2012, Kidzee Kasavanahalli opened its doors with a simple yet powerful vision: to provide every child in our community with the foundation they need to become confident, capable, and caring individuals.
 
 **Our Milestones**:
-- **2010**: Opened with 20 children and 3 dedicated teachers
+- **2012**: Opened with 20 children and 3 dedicated teachers
 - **2013**: Expanded to include full daycare services
 - **2016**: Introduced advanced extracurricular programs
 - **2019**: Adopted the revolutionary Péntemind curriculum
@@ -527,7 +527,7 @@ In 2010, Kidzee Kasavanahalli opened its doors with a simple yet powerful vision
 **"Transforming Lives, One Child at a Time"**
 
 **By the Numbers**:
-- **1400+ Children** have grown with us over 14 years
+- **1400+ Children** have grown with us over 13 years
 - **98% Parent Satisfaction** rate based on annual surveys
 - **100% School Readiness** - All our graduates successfully transition to primary school
 - **50+ Teachers** trained and mentored in our methodology

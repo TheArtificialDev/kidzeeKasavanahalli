@@ -7,13 +7,15 @@ interface AnimatedTextProps {
   className?: string;
   startDelay?: number;
   letterDelay?: number;
+  animateByWords?: boolean;
 }
 
 const AnimatedText: React.FC<AnimatedTextProps> = ({ 
   text, 
   className = '', 
   startDelay = 0, 
-  letterDelay = 0.05 
+  letterDelay = 0.05,
+  animateByWords = false 
 }) => {
   const [hasStarted, setHasStarted] = useState(false);
 
@@ -26,6 +28,21 @@ const AnimatedText: React.FC<AnimatedTextProps> = ({
   }, [startDelay]);
 
   const renderLetters = () => {
+    if (animateByWords) {
+      return text.split(' ').map((word, wordIndex) => (
+        <span
+          key={wordIndex}
+          className="inline-block letter-drop mr-2"
+          style={{
+            animationDelay: hasStarted ? `${wordIndex * letterDelay * 3}s` : '999s',
+            animationFillMode: 'forwards'
+          }}
+        >
+          {word}
+        </span>
+      ));
+    }
+
     return text.split('').map((char, index) => {
       if (char === ' ') {
         return (
