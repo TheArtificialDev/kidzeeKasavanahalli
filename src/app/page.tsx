@@ -1,6 +1,7 @@
 import ProgramCard from "@/components/ProgramCard";
 import TestimonialCarousel from "@/components/TestimonialCarousel";
 import StatsSection from "@/components/StatsSection";
+import AnimatedText from "@/components/AnimatedText";
 import React from "react";
 import Image from 'next/image';
 
@@ -63,21 +64,22 @@ export default function Home() {
 			{/* Hero Section - Full viewport height minus header */}
 			<section className="min-h-[calc(100vh-80px)] bg-gradient-to-br from-purple-50 via-white to-yellow-50 flex items-center relative overflow-hidden">
 				{/* Background decoration */}
-				<div className="absolute inset-0 opacity-5">
-					<Image src="/images/enterance.jpeg" alt="Preschool Entrance" layout="fill" objectFit="cover" className="opacity-20" />
+				<div className="absolute inset-0 opacity-30">
+					<Image src="/images/graduation day.jpg" alt="Graduation Day at Kidzee Kasavanahalli" layout="fill" objectFit="cover" className="opacity-30" />
 				</div>
 				
 				<div className="max-w-5xl mx-auto px-4 text-center py-20 relative z-10">
 					<h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-purple-700 mb-6 leading-tight">
-						Where Young Minds
-						<span className="block text-yellow-500">Bloom Into Future Leaders</span>
+						<AnimatedText 
+							text="Where Young Minds Bloom Into Future Leaders" 
+							startDelay={300}
+							letterDelay={0.06}
+						/>
 					</h1>
-					<p className="text-lg md:text-xl lg:text-2xl text-gray-700 mb-8 leading-relaxed max-w-4xl mx-auto font-medium">
-						<span className="text-purple-600 font-bold">13+  Years of Excellence</span> in Early Childhood Education | 
-						<span className="text-purple-600 font-bold"> 1400+ Happy Children</span> | 
-						<span className="text-purple-600 font-bold"> Kasavanahalli&apos;s Most Trusted Preschool</span>
+					<p className="text-lg md:text-xl lg:text-2xl mb-8 leading-relaxed max-w-4xl mx-auto text-purple-600 font-bold fade-from-top">
+						13+ Years of Excellence in Early Childhood Education | 1400+ Happy Children | Kasavanahalli's Most Trusted Preschool
 					</p>
-					<div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
+					<div className="flex flex-col sm:flex-row gap-4 justify-center mb-10 simple-fade-delay-1">
 						<a
 							href="/activities"
 							className="bg-yellow-400 text-purple-700 font-bold py-3 px-6 rounded-lg hover:bg-yellow-500 transition-colors"
@@ -88,16 +90,10 @@ export default function Home() {
 							href="https://wa.me/918884750750?text=Hey%20Ma'am,%20Looking%20to%20know%20more%20about%20the%20school"
 							className="bg-yellow-400 text-purple-700 font-bold py-3 px-6 rounded-lg hover:bg-yellow-500 transition-colors"
 						>
-							� WhatsApp Us
-						</a>
-						<a
-							href="https://wa.me/918884750750?Hi%20Ma'am"
-							className="bg-yellow-400 text-purple-700 font-bold py-3 px-6 rounded-lg hover:bg-yellow-500 transition-colors"
-						>
-							📱 WhatsApp Us
+							💬 WhatsApp Us
 						</a>
 					</div>
-					<div className="flex flex-wrap gap-4 justify-center text-sm md:text-base">
+					<div className="flex flex-wrap gap-4 justify-center text-sm md:text-base simple-fade-delay-2">
 						<span className="bg-white text-purple-800 px-4 py-3 rounded-full border-2 border-purple-200 shadow-md font-semibold">
 							✅ Trained Teachers (10+ Years Experience)
 						</span>
@@ -113,12 +109,57 @@ export default function Home() {
 			{/* Image Marquee with Animation */}
       <section className="py-16 bg-gray-50">
         <div className="overflow-hidden">
-          <div className="flex gap-8 animate-marquee">
-            {["/images/enterance.jpeg", "/images/Office.jpeg", "/images/cctv_tv.jpeg", "/images/toys1.jpeg", "/images/washroom.jpeg"].map((src, index) => (
-              <div key={index} className="flex-shrink-0 w-96">
+          <div className="flex gap-8 animate-marquee-fast">
+            {/* First set of images */}
+            {[
+              "/images/enterance.jpeg", 
+              "/images/Office.jpeg", 
+              "/images/cctv_tv.jpeg", 
+              "/images/toys1.jpeg", 
+              "/images/washroom.jpeg",
+              "/images/JrKg_Classroom.jpeg",
+              "/images/Nursery_Classroom.jpeg", 
+              "/images/Playgroup_classroom.jpeg",
+              "/images/Srkg_classroom.jpeg",
+              "/images/play_area_1.jpeg",
+              "/images/safty_wall.jpeg",
+              "/images/small_playara.jpeg",
+              "/images/small_playarea.jpeg",
+              "/images/graduation day.jpg",
+              "/images/house 1.jpg",
+              "/images/website_1.jpeg"
+            ].map((src, index) => (
+              <div key={`first-${index}`} className="flex-shrink-0 w-96">
                 <img
                   src={src}
-                  alt={`Marquee image ${index + 1}`}
+                  alt={`Kidzee Kasavanahalli facility ${index + 1}`}
+                  className="rounded-lg shadow-lg w-full h-auto"
+                />
+              </div>
+            ))}
+            {/* Duplicate set for seamless loop */}
+            {[
+              "/images/enterance.jpeg", 
+              "/images/Office.jpeg", 
+              "/images/cctv_tv.jpeg", 
+              "/images/toys1.jpeg", 
+              "/images/washroom.jpeg",
+              "/images/JrKg_Classroom.jpeg",
+              "/images/Nursery_Classroom.jpeg", 
+              "/images/Playgroup_classroom.jpeg",
+              "/images/Srkg_classroom.jpeg",
+              "/images/play_area_1.jpeg",
+              "/images/safty_wall.jpeg",
+              "/images/small_playara.jpeg",
+              "/images/small_playarea.jpeg",
+              "/images/graduation day.jpg",
+              "/images/house 1.jpg",
+              "/images/website_1.jpeg"
+            ].map((src, index) => (
+              <div key={`second-${index}`} className="flex-shrink-0 w-96">
+                <img
+                  src={src}
+                  alt={`Kidzee Kasavanahalli facility ${index + 1}`}
                   className="rounded-lg shadow-lg w-full h-auto"
                 />
               </div>

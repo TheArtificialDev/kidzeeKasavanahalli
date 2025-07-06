@@ -25,21 +25,94 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Marquee Animation */
+/* Marquee Animation - Seamless Loop */
 @keyframes marquee {
   0% {
-    transform: translateX(100%);
+    transform: translateX(0%);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
 
 .animate-marquee {
-  animation: marquee 20s linear infinite;
+  animation: marquee 40s linear infinite;
 }
 
 /* For faster marquee if needed */
 .animate-marquee-fast {
-  animation: marquee 10s linear infinite;
+  animation: marquee 20s linear infinite;
+}
+
+/* Letter-by-letter drop animation - ONLY animation system */
+@keyframes letterDrop {
+  0% {
+    transform: translateY(-100px) rotateX(-90deg);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(10px) rotateX(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0) rotateX(0deg);
+    opacity: 1;
+  }
+}
+
+/* Simple fade in for buttons and other elements */
+@keyframes simpleFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Fade in from top for subtitle */
+@keyframes fadeInFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Letter animation classes */
+.letter-drop {
+  display: inline-block;
+  animation: letterDrop 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+.letter-space {
+  display: inline-block;
+  width: 0.3em;
+}
+
+/* Simple fade classes */
+.simple-fade-in {
+  animation: simpleFadeIn 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+.fade-from-top {
+  animation: fadeInFromTop 1s ease-out 2.5s forwards;
+  opacity: 0;
+}
+
+.simple-fade-delay-1 {
+  animation: simpleFadeIn 0.8s ease-out 3.5s forwards;
+  opacity: 0;
+}
+
+.simple-fade-delay-2 {
+  animation: simpleFadeIn 0.8s ease-out 4.5s forwards;
+  opacity: 0;
 }

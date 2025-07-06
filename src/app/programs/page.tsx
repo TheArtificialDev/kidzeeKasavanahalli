@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import ProgramCard from '@/components/ProgramCard';
+import AnimatedText from '@/components/AnimatedText';
 
 export const metadata: Metadata = {
   title: 'Programs & Curriculum | Kidzee Kasavanahalli',
@@ -63,8 +64,20 @@ export default function ProgramsPage() {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-purple-50 via-white to-yellow-50 py-20">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-purple-700 mb-6">Scientifically Designed Programs for Holistic Development</h1>
-          <p className="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">From First Steps to School Readiness - We Guide Every Journey</p>
+          <h1 className="text-4xl md:text-5xl font-bold text-purple-700 mb-6">
+            <AnimatedText 
+              text="Scientifically Designed Programs for Holistic Development"
+              startDelay={300}
+              letterDelay={0.03}
+            />
+          </h1>
+          <p className="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
+            <AnimatedText 
+              text="From First Steps to School Readiness - We Guide Every Journey"
+              startDelay={2000}
+              letterDelay={0.03}
+            />
+          </p>
         </div>
       </section>
 
