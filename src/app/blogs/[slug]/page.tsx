@@ -1,4 +1,4 @@
-import { blogPosts } from '../data';
+import { blogPosts } from '../data-new';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import ScrollAnimationWrapper from '@/components/ScrollAnimationWrapper';

@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { blogPosts } from './data';
+import { blogPosts } from './data-new';
 import BlogSearch from '@/components/BlogSearch';
 import ScrollAnimationWrapper from '@/components/ScrollAnimationWrapper';
 
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: 'Parenting Tips & Child Development Blog | Kidzee Kasavanahalli',
     description: 'Expert parenting tips, child development insights, preschool updates. Essential reading for modern parents in Bangalore.',
     url: 'https://kidzeekasavanahalli.in/blogs',
-    images: ['/images/graduation day.jpg'],
+    images: ['/images/kidzee-kasavanahalli-preschool.jpg'],
   },
   alternates: {
     canonical: 'https://kidzeekasavanahalli.in/blogs',

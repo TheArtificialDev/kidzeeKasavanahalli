@@ -85,7 +85,7 @@ export default function Footer() {
             </div>
             <div className="text-center md:text-right">
               <p className="text-purple-200 text-sm">
-                © {new Date().getFullYear()} Kidzee Kasavanahalli. All rights reserved.
+                © 2025 Kidzee Kasavanahalli. All rights reserved.
               </p>
               <p className="text-purple-300 text-xs mt-1">
                 Designed for converting parents into enrolled families
