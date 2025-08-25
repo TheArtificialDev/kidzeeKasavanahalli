@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 
 export default function Header() {
@@ -9,8 +10,18 @@ export default function Header() {
   return (
     <header className="bg-white shadow-lg sticky top-0 z-50 border-b-2 border-purple-200">
       <nav className="max-w-6xl mx-auto flex items-center justify-between px-4 py-4">
-        <Link href="/" className="text-purple-700 font-bold text-2xl tracking-tight hover:text-purple-800 transition-colors">
-          Kidzee Kasavanahalli
+        <Link href="/" className="flex items-center space-x-3 hover:opacity-90 transition-opacity">
+          <Image
+            src="/images/Kidzee New Logo.png"
+            alt="Kidzee Kasavanahalli Logo"
+            width={60}
+            height={60}
+            className="object-contain"
+            priority
+          />
+          <span className="text-purple-700 font-bold text-xl md:text-2xl tracking-tight">
+            Kidzee Kasavanahalli
+          </span>
         </Link>
         
         {/* Desktop Navigation */}

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: 'Best Preschool Near Sarjapur Road, HSR Layout, Bellandur | Kidzee Kasavanahalli',
     description: 'Top preschool serving multiple areas with safe van service, experienced teachers & proven curriculum.',
     url: 'https://kidzeekasavanahalli.in/areas-served',
-    images: ['/images/kidzee-kasavanahalli-preschool.jpg'],
+    images: ['/images/Kidzee New Logo.png'],
   },
   alternates: {
     canonical: 'https://kidzeekasavanahalli.in/areas-served',

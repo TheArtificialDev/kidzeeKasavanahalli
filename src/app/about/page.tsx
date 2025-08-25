@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: 'About Kidzee Kasavanahalli - 13+ Years of Excellence | Best Preschool in Bangalore',
     description: 'Discover our 13+ year legacy of excellence. Top preschool in Bangalore with experienced teachers, modern facilities & 1400+ happy families.',
     url: 'https://kidzeekasavanahalli.in/about',
-    images: ['/images/enterance.jpeg'],
+    images: ['/images/Kidzee New Logo.png'],
   },
   alternates: {
     canonical: 'https://kidzeekasavanahalli.in/about',

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: 'Parenting Tips & Child Development Blog | Kidzee Kasavanahalli',
     description: 'Expert parenting tips, child development insights, preschool updates. Essential reading for modern parents in Bangalore.',
     url: 'https://kidzeekasavanahalli.in/blogs',
-    images: ['/images/kidzee-kasavanahalli-preschool.jpg'],
+    images: ['/images/Kidzee New Logo.png'],
   },
   alternates: {
     canonical: 'https://kidzeekasavanahalli.in/blogs',

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: 'Contact & Enrollment | Kidzee Kasavanahalli - Schedule Visit',
     description: 'Contact us for preschool enrollment. Schedule visit, get directions, van service details. Call +91-8884750750 for immediate response.',
     url: 'https://kidzeekasavanahalli.in/contact',
-    images: ['/images/enterance.jpeg'],
+    images: ['/images/Kidzee New Logo.png'],
   },
   alternates: {
     canonical: 'https://kidzeekasavanahalli.in/contact',

@@ -14,6 +14,14 @@ export const metadata: Metadata = {
   title: "Kidzee Kasavanahalli - Best Preschool in Bangalore | Top Play School Near Me",
   description:
     "Best preschool in Kasavanahalli, Bangalore with 13+ years of excellence. Top play school with daycare, activity center & Péntemind curriculum. 1400+ children nurtured. Safe environment, trained teachers, affordable fees. Enrollment open!",
+  icons: {
+    icon: [
+      { url: '/images/Kidzee New Logo.png', sizes: '32x32', type: 'image/png' },
+      { url: '/images/Kidzee New Logo.png', sizes: '16x16', type: 'image/png' },
+    ],
+    apple: '/images/Kidzee New Logo.png',
+    shortcut: '/images/Kidzee New Logo.png',
+  },
   keywords: [
     // Primary keywords
     "preschool near me",
@@ -114,7 +122,7 @@ export const metadata: Metadata = {
     locale: "en_IN",
     images: [
       {
-        url: "/images/kidzee-kasavanahalli-preschool.jpg",
+        url: "/images/Kidzee New Logo.png",
         width: 1200,
         height: 630,
         alt: "Kidzee Kasavanahalli - Best Preschool in Bangalore",
@@ -125,7 +133,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Kidzee Kasavanahalli - Best Preschool in Bangalore",
     description: "Best preschool in Kasavanahalli with 13+ years of excellence. Top play school with daycare & activity center.",
-    images: ["/images/kidzee-kasavanahalli-preschool.jpg"],
+    images: ["/images/Kidzee New Logo.png"],
   },
   alternates: {
     canonical: "https://kidzeekasavanahalli.in",
@@ -187,7 +195,7 @@ export default function RootLayout({
             "closes": "13:00"
           }
         ],
-        "image": "https://kidzeekasavanahalli.in/images/kidzee-kasavanahalli-preschool.jpg",
+        "image": "https://kidzeekasavanahalli.in/images/Kidzee New Logo.png",
         "sameAs": [
           "https://www.facebook.com/kidzeekasavanahalli",
           "https://www.instagram.com/kidzeekasavanahalli"

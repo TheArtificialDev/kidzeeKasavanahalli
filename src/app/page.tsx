@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: 'Kidzee Kasavanahalli - Best Preschool in Bangalore | Enrollment Open',
     description: 'Best preschool in Kasavanahalli with 13+ years of excellence. Top play school with daycare, experienced teachers & 1400+ happy families.',
     url: 'https://kidzeekasavanahalli.in',
-    images: ['/images/kidzee-kasavanahalli-preschool.jpg'],
+    images: ['/images/Kidzee New Logo.png'],
   },
   alternates: {
     canonical: 'https://kidzeekasavanahalli.in',
