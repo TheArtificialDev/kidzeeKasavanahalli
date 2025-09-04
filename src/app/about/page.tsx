@@ -142,6 +142,185 @@ export default function AboutPage() {
         </section>
       </ScrollAnimationWrapper>
 
+      {/* Visionary Leadership - Shilp Shikha */}
+      <ScrollAnimationWrapper animation="fade">
+        <section className="py-20 bg-white">
+          <div className="max-w-6xl mx-auto px-4">
+            <div className="text-center mb-16">
+              <ScrollAnimationWrapper animation="elastic">
+                <h2 className="text-3xl md:text-5xl font-bold text-purple-700 mb-6">
+                  The Visionary Behind Our Success Story
+                </h2>
+              </ScrollAnimationWrapper>
+              <ScrollAnimationWrapper animation="slide-up" delay={1}>
+                <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+                  Innovation meets compassion in our leadership approach. Discover how one educator&apos;s vision transformed early childhood education in Kasavanahalli.
+                </p>
+              </ScrollAnimationWrapper>
+            </div>
+
+            <div className="grid lg:grid-cols-2 gap-16 items-center">
+              {/* Content Section - Different Focus */}
+              <ScrollAnimationWrapper animation="slide-left">
+                <div className="space-y-8">
+                  <div>
+                    <h3 className="text-3xl md:text-4xl font-bold text-purple-700 mb-3">
+                      Shilp Shikha
+                    </h3>
+                    <p className="text-xl text-purple-600 font-semibold mb-6">
+                      Educational Innovator & Community Leader | Transforming Lives Through Progressive Teaching
+                    </p>
+                  </div>
+
+                  {/* Educational Philosophy */}
+                  <div className="bg-gradient-to-br from-purple-50 to-white rounded-xl p-8 border-l-4 border-purple-600">
+                    <h4 className="text-2xl font-bold text-purple-700 mb-4">Educational Philosophy</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      <strong>&ldquo;Education is not preparation for life; education is life itself.&rdquo;</strong> This philosophy drives 
+                      Shilp&apos;s innovative approach to early childhood education. With <strong>17+ years of pioneering work</strong> 
+                      in progressive teaching methodologies, she believes in creating learning environments where children don&apos;t 
+                      just memorize—they explore, question, and discover.
+                    </p>
+                    <p className="text-gray-700 leading-relaxed">
+                      Her revolutionary approach integrates <em>multiple intelligence theory</em> with traditional Indian values, 
+                      ensuring every child develops not just academically, but as a well-rounded individual ready to face tomorrow&apos;s challenges.
+                    </p>
+                  </div>
+
+                  {/* Innovation in Teaching */}
+                  <div className="bg-gradient-to-br from-yellow-50 to-white rounded-xl p-8 border-l-4 border-yellow-400">
+                    <h4 className="text-2xl font-bold text-purple-700 mb-4">Innovation in Action</h4>
+                    <div className="space-y-4">
+                      <div className="flex items-start">
+                        <span className="text-yellow-500 text-2xl mr-3 mt-1">🚀</span>
+                        <div>
+                          <h5 className="font-bold text-purple-600 mb-1">Technology Integration Pioneer</h5>
+                          <p className="text-gray-600">First in Kasavanahalli to introduce smart classroom technology and digital learning tools</p>
+                        </div>
+                      </div>
+                      <div className="flex items-start">
+                        <span className="text-yellow-500 text-2xl mr-3 mt-1">🎨</span>
+                        <div>
+                          <h5 className="font-bold text-purple-600 mb-1">Creative Curriculum Designer</h5>
+                          <p className="text-gray-600">Developed unique activity-based learning modules that make complex concepts simple and fun</p>
+                        </div>
+                      </div>
+                      <div className="flex items-start">
+                        <span className="text-yellow-500 text-2xl mr-3 mt-1">🌍</span>
+                        <div>
+                          <h5 className="font-bold text-purple-600 mb-1">Global Perspective Advocate</h5>
+                          <p className="text-gray-600">Incorporates international best practices while preserving Indian cultural roots</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Community Leadership */}
+                  <div className="bg-gradient-to-br from-purple-50 to-white rounded-xl p-8 border-l-4 border-purple-600">
+                    <h4 className="text-2xl font-bold text-purple-700 mb-4">Community Impact & Leadership</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      Beyond the classroom, Shilp has become a <strong>cornerstone of the Kasavanahalli educational community</strong>. 
+                      She regularly conducts <em>parenting workshops</em>, <em>teacher training programs</em>, and 
+                      <em>child development seminars</em> that benefit families across Bangalore.
+                    </p>
+                    <p className="text-gray-700 leading-relaxed">
+                      Her expertise is sought after by educational institutions, making her a <strong>thought leader</strong> in 
+                      progressive early childhood education methodologies.
+                    </p>
+                  </div>
+                </div>
+              </ScrollAnimationWrapper>
+
+              {/* Image Section with Different Layout */}
+              <ScrollAnimationWrapper animation="slide-right">
+                <div className="relative">
+                  {/* Main Image */}
+                  <div className="bg-gradient-to-br from-yellow-100 to-purple-100 rounded-3xl p-8 transform rotate-3">
+                    <div className="transform -rotate-3">
+                      <Image
+                        src="/images/shilp.jpeg"
+                        alt="Shilp Shikha - Educational Innovator and Community Leader at Kidzee Kasavanahalli, pioneering progressive teaching methods in early childhood education"
+                        width={500}
+                        height={600}
+                        className="rounded-2xl shadow-xl w-full h-auto"
+                      />
+                    </div>
+                  </div>
+                  
+                  {/* Achievement Badges */}
+                  <div className="absolute -top-6 -left-6 bg-purple-700 text-white rounded-full p-6 shadow-xl">
+                    <div className="text-center">
+                      <div className="text-2xl font-bold">17+</div>
+                      <div className="text-xs">Years</div>
+                    </div>
+                  </div>
+                  
+                  <div className="absolute -bottom-6 -right-6 bg-yellow-400 text-purple-700 rounded-full p-6 shadow-xl">
+                    <div className="text-center">
+                      <div className="text-2xl">🏆</div>
+                      <div className="text-xs font-bold">Leader</div>
+                    </div>
+                  </div>
+
+                  <div className="absolute top-1/2 -right-8 bg-white text-purple-700 rounded-full p-4 shadow-lg">
+                    <span className="text-2xl">💡</span>
+                  </div>
+                </div>
+              </ScrollAnimationWrapper>
+            </div>
+
+            {/* Leadership Principles */}
+            <ScrollAnimationWrapper animation="fade-blur" delay={2}>
+              <div className="mt-20">
+                <h4 className="text-2xl font-bold text-purple-700 text-center mb-12">Leadership Principles That Drive Excellence</h4>
+                <div className="grid md:grid-cols-4 gap-8">
+                  <div className="text-center bg-gradient-to-br from-purple-50 to-white rounded-xl p-6 shadow-md">
+                    <div className="text-4xl mb-4">🎯</div>
+                    <h5 className="text-lg font-bold text-purple-700 mb-3">Vision-Driven</h5>
+                    <p className="text-gray-600 text-sm">
+                      Every decision is made with a clear vision of creating future leaders and innovators
+                    </p>
+                  </div>
+                  <div className="text-center bg-gradient-to-br from-yellow-50 to-white rounded-xl p-6 shadow-md">
+                    <div className="text-4xl mb-4">🔬</div>
+                    <h5 className="text-lg font-bold text-purple-700 mb-3">Research-Based</h5>
+                    <p className="text-gray-600 text-sm">
+                      Constantly studying latest educational research to implement proven methodologies
+                    </p>
+                  </div>
+                  <div className="text-center bg-gradient-to-br from-purple-50 to-white rounded-xl p-6 shadow-md">
+                    <div className="text-4xl mb-4">🤝</div>
+                    <h5 className="text-lg font-bold text-purple-700 mb-3">Collaborative</h5>
+                    <p className="text-gray-600 text-sm">
+                      Works closely with parents and teachers to create a unified support system
+                    </p>
+                  </div>
+                  <div className="text-center bg-gradient-to-br from-yellow-50 to-white rounded-xl p-6 shadow-md">
+                    <div className="text-4xl mb-4">⚡</div>
+                    <h5 className="text-lg font-bold text-purple-700 mb-3">Adaptive</h5>
+                    <p className="text-gray-600 text-sm">
+                      Quickly adapts teaching methods to meet each child&apos;s unique learning style
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </ScrollAnimationWrapper>
+
+            {/* Inspirational Quote Section */}
+            <ScrollAnimationWrapper animation="scale" delay={3}>
+              <div className="mt-16 bg-gradient-to-r from-purple-700 to-purple-800 rounded-2xl p-8 md:p-12 text-white text-center">
+                <div className="text-6xl mb-6">💭</div>
+                <blockquote className="text-xl md:text-2xl font-medium mb-6 italic">
+                  &ldquo;The future belongs to those who believe in the beauty of their dreams. My dream is to see every child 
+                  who enters our doors leave with the confidence to dream big and the skills to make those dreams reality.&rdquo;
+                </blockquote>
+                <cite className="text-yellow-300 text-lg font-semibold">- Shilp Shikha, Educational Visionary</cite>
+              </div>
+            </ScrollAnimationWrapper>
+          </div>
+        </section>
+      </ScrollAnimationWrapper>
+
       {/* Story & Mission */}
       <ScrollAnimationWrapper animation="scale">
         <section className="py-16 bg-white">

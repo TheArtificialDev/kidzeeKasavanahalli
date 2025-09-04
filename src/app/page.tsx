@@ -247,6 +247,148 @@ export default function Home() {	return (
 				</div>
 			</section>
 
+			{/* Meet Our Center Owner - Shilp Shikha */}
+			<section className="py-20 bg-gradient-to-br from-white to-purple-50" id="meet-our-owner">
+				<div className="max-w-6xl mx-auto px-4">
+					<div className="text-center mb-16">
+						<ScrollAnimationWrapper animation="glide">
+							<h2 className="text-3xl md:text-5xl font-bold text-purple-700 mb-6">
+								Meet The Heart Behind Our Excellence
+							</h2>
+						</ScrollAnimationWrapper>
+						<ScrollAnimationWrapper animation="fade-blur" delay={1}>
+							<p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+								Every great preschool has a passionate leader who believes in nurturing young minds. Meet the visionary who has been shaping futures for over 17 years.
+							</p>
+						</ScrollAnimationWrapper>
+					</div>
+
+					<div className="grid lg:grid-cols-2 gap-12 items-center">
+						{/* Image Section */}
+						<ScrollAnimationWrapper animation="slide-left">
+							<div className="relative">
+								<div className="bg-gradient-to-br from-purple-100 to-yellow-100 rounded-3xl p-8">
+									<Image
+										src="/images/shilp.jpeg"
+										alt="Shilp Shikha - Center Owner and Principal at Kidzee Kasavanahalli, experienced early childhood educator with 17+ years in preschool education"
+										width={500}
+										height={600}
+										className="rounded-2xl shadow-lg w-full h-auto"
+									/>
+								</div>
+								{/* Decorative elements */}
+								<div className="absolute -top-4 -right-4 bg-yellow-400 text-purple-700 rounded-full p-4 shadow-lg">
+									<span className="text-3xl">👩‍🏫</span>
+								</div>
+								<div className="absolute -bottom-4 -left-4 bg-purple-700 text-white rounded-full p-4 shadow-lg">
+									<span className="text-2xl font-bold">17+</span>
+								</div>
+							</div>
+						</ScrollAnimationWrapper>
+
+						{/* Content Section */}
+						<ScrollAnimationWrapper animation="slide-right">
+							<div className="space-y-6">
+								<div>
+									<h3 className="text-3xl md:text-4xl font-bold text-purple-700 mb-2">
+										Shilp Shikha
+									</h3>
+									<p className="text-xl text-purple-600 font-semibold mb-4">
+										Center Owner & Principal | 17+ Years in Early Childhood Education
+									</p>
+								</div>
+
+								<div className="prose prose-lg text-gray-700 leading-relaxed">
+									<p className="text-lg mb-4">
+										<strong className="text-purple-700">Behind every successful child is a teacher who believed in them first.</strong> 
+										Shilp Shikha embodies this philosophy with her unwavering dedication to early childhood education spanning over 
+										<strong> 17 remarkable years</strong>.
+									</p>
+
+									<p className="mb-4">
+										With advanced certifications in early childhood development and Montessori methodologies, Shilp has transformed 
+										the lives of <strong>over 1400 children</strong> in Kasavanahalli and surrounding areas. Her educational philosophy 
+										centers on recognizing that <em>&ldquo;every child is unique and deserves personalized attention to unlock their full potential.&rdquo;</em>
+									</p>
+
+									<p className="mb-4">
+										What sets Shilp apart is her <strong>genuine emotional connection</strong> with each child. She doesn&apos;t just see 
+										students; she sees future leaders, innovators, and change-makers. Her approach combines traditional values with 
+										modern teaching techniques, ensuring children are not only academically prepared but also emotionally resilient.
+									</p>
+
+									<p className="mb-6">
+										<strong className="text-purple-700">Her hands-on leadership style</strong> means she&apos;s involved in every aspect 
+										of your child&apos;s journey - from curriculum planning to individual progress tracking. Parents often share how 
+										Shilp personally knows each child&apos;s strengths, interests, and areas for growth, making every family feel truly valued.
+									</p>
+
+									{/* Credentials & Achievements */}
+									<div className="bg-gradient-to-r from-purple-50 to-yellow-50 rounded-xl p-6 mb-6">
+										<h4 className="text-xl font-bold text-purple-700 mb-4">Professional Excellence</h4>
+										<ul className="space-y-2">
+											<li className="flex items-start">
+												<span className="text-yellow-500 mr-2 mt-1">🎓</span>
+												<span>Certified in Advanced Early Childhood Development</span>
+											</li>
+											<li className="flex items-start">
+												<span className="text-yellow-500 mr-2 mt-1">🏆</span>
+												<span>Montessori Training Certification</span>
+											</li>
+											<li className="flex items-start">
+												<span className="text-yellow-500 mr-2 mt-1">📚</span>
+												<span>Specialized Training in Child Psychology & Behavior Management</span>
+											</li>
+											<li className="flex items-start">
+												<span className="text-yellow-500 mr-2 mt-1">🌟</span>
+												<span>Continuous Professional Development in Modern Teaching Methods</span>
+											</li>
+										</ul>
+									</div>
+
+									{/* Personal Touch */}
+									<div className="bg-white rounded-xl p-6 border-l-4 border-purple-600 shadow-md">
+										<blockquote className="text-lg italic text-gray-700 mb-3">
+											&ldquo;I don&apos;t just teach children; I nurture their curiosity, celebrate their discoveries, and guide them 
+											towards becoming confident, compassionate individuals. Every child who walks through our doors becomes 
+											part of our extended family.&rdquo;
+										</blockquote>
+										<cite className="text-purple-700 font-semibold">- Shilp Shikha</cite>
+									</div>
+								</div>
+							</div>
+						</ScrollAnimationWrapper>
+					</div>
+
+					{/* Additional Impact Statistics */}
+					<ScrollAnimationWrapper animation="fade-blur" delay={2}>
+						<div className="mt-16 grid md:grid-cols-3 gap-8">
+							<div className="text-center bg-white rounded-2xl p-8 shadow-lg border border-purple-100">
+								<div className="text-4xl mb-4">❤️</div>
+								<h4 className="text-2xl font-bold text-purple-700 mb-2">Personal Touch</h4>
+								<p className="text-gray-600">
+									Knows every child by name and personally tracks their individual growth journey
+								</p>
+							</div>
+							<div className="text-center bg-white rounded-2xl p-8 shadow-lg border border-purple-100">
+								<div className="text-4xl mb-4">🤝</div>
+								<h4 className="text-2xl font-bold text-purple-700 mb-2">Family Partnership</h4>
+								<p className="text-gray-600">
+									Maintains open communication with parents, providing regular updates and guidance
+								</p>
+							</div>
+							<div className="text-center bg-white rounded-2xl p-8 shadow-lg border border-purple-100">
+								<div className="text-4xl mb-4">🌱</div>
+								<h4 className="text-2xl font-bold text-purple-700 mb-2">Growth Mindset</h4>
+								<p className="text-gray-600">
+									Focuses on building confidence, creativity, and life-long learning habits in every child
+								</p>
+							</div>
+						</div>
+					</ScrollAnimationWrapper>
+				</div>
+			</section>
+
 			{/* Programs Overview */}
 			<section className="py-20 bg-gradient-to-br from-purple-50 to-yellow-50" id="programs">
 				<div className="max-w-6xl mx-auto px-4">
