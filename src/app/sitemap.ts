@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://kidzeekasavanahalli.in';
-  const currentDate = new Date().toISOString();
+  const currentDate = new Date();
 
   // Main pages
   const mainPages = [
