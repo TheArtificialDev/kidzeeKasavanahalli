@@ -2,14 +2,16 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Best Preschool Near Sarjapur Road, HSR Layout, Bellandur | Kidzee Kasavanahalli',
-  description: 'Top preschool serving Sarjapur Road, HSR Layout, Bellandur, Electronic City areas. Kidzee Kasavanahalli with safe van service, 13+ years experience, affordable fees. Enrollment open!',
-  keywords: 'preschool near Sarjapur Road, preschool near HSR Layout, preschool near Bellandur, preschool near Electronic City, preschool near Marathahalli, preschool near Whitefield, best preschool Outer Ring Road',
+  title: 'Preschool Near Sarjapur Road, HSR Layout, Bellandur | Kidzee Kasavanahalli - Van Service Available',
+  description: 'Best preschool near me serving Sarjapur Road, HSR Layout, Bellandur, Electronic City, Marathahalli, Whitefield, Munnekolala. Kidzee Kasavanahalli with safe transportation, affordable fees. Enroll now!',
+  keywords: 'preschool near me, preschool near Sarjapur Road, preschool near HSR Layout, preschool near Bellandur, preschool near Electronic City, preschool near Marathahalli, preschool near Whitefield, schools near Sarjapur Road, preschool nearby kasavanahalli sarjapur, preschool near kasavanahalli sarjapur, pre primary school nearby kasavanahalli sarjapur, best preschool in munnekolala, schools in sarjapur road, preschool with transportation bangalore, van service preschool Bangalore',
   openGraph: {
-    title: 'Best Preschool Near Sarjapur Road, HSR Layout, Bellandur | Kidzee Kasavanahalli',
-    description: 'Top preschool serving multiple areas with safe van service, experienced teachers & proven curriculum.',
+    title: 'Preschool Near Sarjapur Road, HSR Layout, Bellandur | Safe Transportation Available',
+    description: 'Top-rated preschool serving multiple IT corridors with GPS-tracked van service. 13+ years experience, affordable fees.',
     url: 'https://kidzeekasavanahalli.in/areas-served',
+    siteName: 'Kidzee Kasavanahalli',
     images: ['/images/Kidzee New Logo.png'],
+    locale: 'en_IN',
   },
   alternates: {
     canonical: 'https://kidzeekasavanahalli.in/areas-served',

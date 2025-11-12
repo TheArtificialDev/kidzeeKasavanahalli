@@ -2,14 +2,16 @@ import { Metadata } from 'next';
 import ScrollAnimationWrapper from '@/components/ScrollAnimationWrapper';
 
 export const metadata: Metadata = {
-  title: 'Contact & Enrollment | Kidzee Kasavanahalli - Schedule Visit | Best Preschool Bangalore',
-  description: 'Contact Kidzee Kasavanahalli for preschool enrollment. Schedule visit, get directions, van service details. Located in Kasavanahalli, Bangalore. Call +91-8884750750 for immediate response.',
-  keywords: 'contact Kidzee Kasavanahalli, preschool enrollment Bangalore, schedule visit preschool, Kasavanahalli preschool location, van service preschool Bangalore, daycare enrollment Kasavanahalli',
+  title: 'Contact Kidzee Kasavanahalli | Best Preschool Near Me - Address, Phone, Directions | Enroll Now',
+  description: 'Contact best preschool in Kasavanahalli. Address: Kasavanahalli Main Road, near Sarjapur Road. Phone: +91-8884750750. Schedule visit, enrollment details, directions. Open Mon-Sat.',
+  keywords: 'contact kidzee kasavanahalli, preschool near me, kasavanahalli directions, preschool enrollment bangalore, schedule visit preschool, preschool phone number, best preschool kasavanahalli address, daycare contact kasavanahalli, preschool near sarjapur road contact, schools near me contact',
   openGraph: {
-    title: 'Contact & Enrollment | Kidzee Kasavanahalli - Schedule Visit',
-    description: 'Contact us for preschool enrollment. Schedule visit, get directions, van service details. Call +91-8884750750 for immediate response.',
+    title: 'Contact Kidzee Kasavanahalli | Enroll at Best Preschool Near Me',
+    description: 'Get in touch with Kasavanahalli\'s top preschool. Call +91-8884750750 or WhatsApp for enrollment. Visit us today!',
     url: 'https://kidzeekasavanahalli.in/contact',
+    siteName: 'Kidzee Kasavanahalli',
     images: ['/images/Kidzee New Logo.png'],
+    locale: 'en_IN',
   },
   alternates: {
     canonical: 'https://kidzeekasavanahalli.in/contact',

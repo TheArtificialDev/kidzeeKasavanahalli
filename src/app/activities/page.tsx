@@ -3,14 +3,16 @@ import ScrollAnimationWrapper from '@/components/ScrollAnimationWrapper';
 import FAQSection, { activitiesFAQs } from '@/components/FAQSection';
 
 export const metadata: Metadata = {
-  title: 'Activity Center & Extracurricular Programs | Kidzee Kasavanahalli - Karate, Art, Music',
-  description: 'Premium activity center in Kasavanahalli offering karate, art, music, tuition, sports for children. Flexible online/offline classes. Open to all kids, not just preschoolers. Expert instructors.',
-  keywords: 'activity center Kasavanahalli, karate classes Bangalore, art classes children Kasavanahalli, extracurricular activities Bangalore, music classes kids, tuition center Kasavanahalli, sports activities children',
+  title: 'Activity Center Kasavanahalli | Karate, Art, Tuition Classes - Best Extracurricular Programs Bangalore',
+  description: 'Premium activity center in Kasavanahalli near Sarjapur Road. Karate, art, music, tuition classes for children 3-12 years. Flexible online/offline. Expert instructors. Open to all. Enroll now!',
+  keywords: 'activity center kasavanahalli, karate classes bangalore, karate classes near me, art classes children kasavanahalli, drawing classes bangalore, extracurricular activities bangalore, tuition center kasavanahalli, tuition classes near me, after school activities, kids activities near sarjapur road, children sports classes bangalore, music classes kids, activity center near me',
   openGraph: {
-    title: 'Activity Center & Extracurricular Programs | Kidzee Kasavanahalli',
-    description: 'Premium activity center offering karate, art, music, tuition, sports for children. Flexible online/offline classes with expert instructors.',
+    title: 'Activity Center Kasavanahalli | Karate, Art, Tuition - Kidzee Bangalore',
+    description: 'Premium activity center with karate, art, music, tuition for ages 3-12. Expert instructors, flexible timings, competitive fees.',
     url: 'https://kidzeekasavanahalli.in/activities',
+    siteName: 'Kidzee Kasavanahalli',
     images: ['/images/Kidzee New Logo.png'],
+    locale: 'en_IN',
   },
   alternates: {
     canonical: 'https://kidzeekasavanahalli.in/activities',

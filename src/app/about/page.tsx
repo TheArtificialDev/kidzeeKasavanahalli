@@ -3,14 +3,16 @@ import Image from 'next/image';
 import ScrollAnimationWrapper from '@/components/ScrollAnimationWrapper';
 
 export const metadata: Metadata = {
-  title: 'About Kidzee Kasavanahalli - 13+ Years of Excellence | Best Preschool in Bangalore',
-  description: 'Discover Kidzee Kasavanahalli\'s 13+ year legacy of excellence. Top preschool in Bangalore with experienced teachers, modern facilities, Péntemind curriculum & 1400+ happy families. Learn our story.',
-  keywords: 'about Kidzee Kasavanahalli, best preschool Bangalore story, experienced preschool teachers Kasavanahalli, Péntemind curriculum, top play school Bangalore history, established preschool Kasavanahalli, trusted daycare center Bangalore',
+  title: 'About Kidzee Kasavanahalli | Best Preschool Bangalore - 13+ Years Excellence | 1400+ Happy Families',
+  description: 'About best preschool in Kasavanahalli, Bangalore. 13+ years legacy, experienced teachers (10+ years), Péntemind curriculum, 1400+ graduates. Safe environment. Trusted by families near Sarjapur Road. Learn our story.',
+  keywords: 'about kidzee kasavanahalli, best preschool bangalore, kidzee kasavanahalli story, experienced preschool teachers, preschool kasavanahalli history, top play school bangalore, established preschool, trusted daycare center, péntemind curriculum, kidzee photos, kidzee preschool photos',
   openGraph: {
-    title: 'About Kidzee Kasavanahalli - 13+ Years of Excellence | Best Preschool in Bangalore',
-    description: 'Discover our 13+ year legacy of excellence. Top preschool in Bangalore with experienced teachers, modern facilities & 1400+ happy families.',
+    title: 'About Kidzee Kasavanahalli | 13+ Years Best Preschool in Bangalore',
+    description: '13+ year legacy of excellence in early childhood education. Trusted by 1400+ families near Sarjapur Road, HSR Layout.',
     url: 'https://kidzeekasavanahalli.in/about',
+    siteName: 'Kidzee Kasavanahalli',
     images: ['/images/Kidzee New Logo.png'],
+    locale: 'en_IN',
   },
   alternates: {
     canonical: 'https://kidzeekasavanahalli.in/about',

@@ -25,11 +25,12 @@ export default function Header() {
         </Link>
         
         {/* Desktop Navigation */}
-        <ul className="hidden md:flex gap-8 text-base font-semibold">
+        <ul className="hidden md:flex gap-6 text-base font-semibold">
           <li><Link href="/programs" className="text-gray-700 hover:text-purple-700 transition-colors py-2 px-1">Programs</Link></li>
           <li><Link href="/activities" className="text-gray-700 hover:text-purple-700 transition-colors py-2 px-1">Activities</Link></li>
           <li><Link href="/about" className="text-gray-700 hover:text-purple-700 transition-colors py-2 px-1">About</Link></li>
           <li><Link href="/contact" className="text-gray-700 hover:text-purple-700 transition-colors py-2 px-1">Contact</Link></li>
+          <li><Link href="/careers" className="text-gray-700 hover:text-purple-700 transition-colors py-2 px-1">Careers</Link></li>
           <li><Link href="/blogs" className="text-gray-700 hover:text-purple-700 transition-colors py-2 px-1">Blogs</Link></li>
         </ul>
         
@@ -60,6 +61,7 @@ export default function Header() {
             <li><Link href="/activities" className="block text-gray-700 hover:text-purple-700 transition-colors py-3 px-2 font-semibold" onClick={() => setIsMenuOpen(false)}>Activities</Link></li>
             <li><Link href="/about" className="block text-gray-700 hover:text-purple-700 transition-colors py-3 px-2 font-semibold" onClick={() => setIsMenuOpen(false)}>About</Link></li>
             <li><Link href="/contact" className="block text-gray-700 hover:text-purple-700 transition-colors py-3 px-2 font-semibold" onClick={() => setIsMenuOpen(false)}>Contact</Link></li>
+            <li><Link href="/careers" className="block text-gray-700 hover:text-purple-700 transition-colors py-3 px-2 font-semibold" onClick={() => setIsMenuOpen(false)}>Careers</Link></li>
             <li><Link href="/blogs" className="block text-gray-700 hover:text-purple-700 transition-colors py-3 px-2 font-semibold" onClick={() => setIsMenuOpen(false)}>Blogs</Link></li>
             <li className="pt-2">
               <a href="https://wa.me/918884750750?text=Hey%20Ma'am,%20Looking%20to%20know%20more%20about%20the%20school" className="block bg-yellow-400 text-purple-700 px-4 py-3 rounded-lg font-bold text-center hover:bg-yellow-500 transition-colors" onClick={() => setIsMenuOpen(false)}>

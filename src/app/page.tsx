@@ -7,17 +7,111 @@ import Image from 'next/image';
 import FAQSection, { homeFAQs } from "@/components/FAQSection";
 
 export const metadata: Metadata = {
-  title: 'Kidzee Kasavanahalli - Best Preschool in Bangalore | Top Play School Near Me | Enrollment Open',
-  description: 'Best preschool in Kasavanahalli, Bangalore with 13+ years of excellence. Top play school with daycare, Péntemind curriculum, experienced teachers & 1400+ happy families. Safe environment, affordable fees. Enrollment open!',
-  keywords: 'best preschool Kasavanahalli, top play school Bangalore, preschool near me, nursery school Bangalore, kindergarten Kasavanahalli, daycare center Bangalore, Kidzee preschool enrollment, affordable preschool fees Bangalore, best preschool for working parents',
+  title: 'Best Preschool in Kasavanahalli | Kidzee Bangalore - Top Play School Near Me | Daycare Center',
+  description: 'Best preschool in Kasavanahalli, Bangalore with 13+ years. Top play school near Sarjapur Road, HSR Layout. Affordable daycare, nursery, kindergarten. Kidzee preschool with transportation. Enrollment open! Call now.',
+  keywords: [
+    // Primary local keywords
+    'best preschool in kasavanahalli',
+    'preschool in kasavanahalli',
+    'preschools in kasavanahalli',
+    'kidzee kasavanahalli',
+    'kidzee',
+    'kidzee bangalore',
+    'kidzee near me',
+    'daycare in kasavanahalli',
+    '24/7 daycare in bangalore',
+    
+    // School search terms
+    'schools near me',
+    'school near me',
+    'schools in kasavanahalli',
+    'schools near kasavanahalli',
+    'primary school in kasavanahalli',
+    'primary schools in kasavanahalli',
+    'best school near me',
+    'nearby schools',
+    'schools near to me',
+    
+    // Play school terms
+    'preschool near me',
+    'play school near me',
+    'pre school near me',
+    'playschool near me',
+    'top play schools in bangalore',
+    
+    // Location-specific
+    'kidzee sarjapur',
+    'kidzee sarjapur road',
+    'preschool near kasavanahalli sarjapur',
+    'preschool nearby kasavanahalli sarjapur',
+    'pre primary school nearby kasavanahalli sarjapur',
+    'pre primary school near kasavanahalli sarjapur',
+    'primary school nearby kasavanahalli sarjapur',
+    'schools in sarjapur road',
+    'schools near sarjapur road',
+    'preschool in sarjapur road',
+    
+    // Affordable keywords
+    'affordable preschool bangalore',
+    'affordable preschools bangalore',
+    
+    // Transportation
+    'preschool with transportation bangalore',
+    
+    // Inclusive
+    'inclusive schools near me',
+    
+    // IB keywords
+    'ib preschool in kasavanahalli',
+    'ib preschools in kasavanahalli',
+    'ib pre primary school nearby kasavanahalli sarjapur',
+    
+    // Munnekolala
+    'best preschool in munnekolala',
+    
+    // Brand terms
+    'kidzee school',
+    'kidzee school near me',
+    'kidzee preschool',
+    'kidzee photos',
+    'kidzee preschool photos',
+    
+    // Additional
+    'kasavanahalli directions',
+    'nursery school bangalore',
+    'kindergarten kasavanahalli',
+    'best preschool for working parents'
+  ].join(', '),
   openGraph: {
-    title: 'Kidzee Kasavanahalli - Best Preschool in Bangalore | Enrollment Open',
-    description: 'Best preschool in Kasavanahalli with 13+ years of excellence. Top play school with daycare, experienced teachers & 1400+ happy families.',
+    title: 'Best Preschool in Kasavanahalli | Kidzee Bangalore - Daycare & Play School',
+    description: 'Top-rated preschool near Sarjapur Road with 13+ years experience. Affordable daycare, transportation. 1400+ happy families. Enrollment open!',
     url: 'https://kidzeekasavanahalli.in',
+    siteName: 'Kidzee Kasavanahalli',
+    images: [
+      {
+        url: '/images/Kidzee New Logo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Kidzee Kasavanahalli - Best Preschool in Bangalore'
+      }
+    ],
+    locale: 'en_IN',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Best Preschool in Kasavanahalli | Kidzee Bangalore',
+    description: 'Top preschool near Sarjapur Road with daycare & transportation. 13+ years experience. Enroll now!',
     images: ['/images/Kidzee New Logo.png'],
   },
   alternates: {
     canonical: 'https://kidzeekasavanahalli.in',
+  },
+  other: {
+    'geo.region': 'IN-KA',
+    'geo.placename': 'Kasavanahalli, Bangalore',
+    'geo.position': '12.9279;77.6869',
+    'ICBM': '12.9279, 77.6869',
   },
 };
 
@@ -72,8 +166,197 @@ const programData = [
 	},
 ];
 
-export default function Home() {	return (
+export default function Home() {
+	// Comprehensive Schema Markup for SEO
+	const localBusinessSchema = {
+		"@context": "https://schema.org",
+		"@type": "EducationalOrganization",
+		"@id": "https://kidzeekasavanahalli.in/#organization",
+		"name": "Kidzee Kasavanahalli",
+		"alternateName": ["Kidzee Preschool Kasavanahalli", "Kidzee Bangalore Kasavanahalli"],
+		"description": "Best preschool in Kasavanahalli, Bangalore with 13+ years of excellence in early childhood education. Top play school offering daycare, nursery, kindergarten with Péntemind curriculum.",
+		"url": "https://kidzeekasavanahalli.in",
+		"logo": "https://kidzeekasavanahalli.in/images/Kidzee New Logo.png",
+		"image": [
+			"https://kidzeekasavanahalli.in/images/Kidzee New Logo.png",
+			"https://kidzeekasavanahalli.in/images/graduation day.jpg",
+			"https://kidzeekasavanahalli.in/images/house 1.jpg"
+		],
+		"telephone": "+918884750750",
+		"email": "contact@kidzeekasavanahalli.in",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "Kasavanahalli Main Road",
+			"addressLocality": "Kasavanahalli",
+			"addressRegion": "Karnataka",
+			"postalCode": "560035",
+			"addressCountry": "IN"
+		},
+		"geo": {
+			"@type": "GeoCoordinates",
+			"latitude": "12.9279",
+			"longitude": "77.6869"
+		},
+		"areaServed": [
+			{
+				"@type": "City",
+				"name": "Bangalore",
+				"sameAs": "https://en.wikipedia.org/wiki/Bangalore"
+			},
+			"Kasavanahalli",
+			"Sarjapur Road",
+			"HSR Layout",
+			"Bellandur",
+			"Electronic City",
+			"Marathahalli",
+			"Whitefield",
+			"Munnekolala"
+		],
+		"openingHoursSpecification": [
+			{
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+				"opens": "09:00",
+				"closes": "18:00"
+			},
+			{
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": "Saturday",
+				"opens": "10:00",
+				"closes": "13:00"
+			}
+		],
+		"priceRange": "₹₹",
+		"currenciesAccepted": "INR",
+		"paymentAccepted": "Cash, Card, UPI, Bank Transfer",
+		"foundingDate": "2012",
+		"slogan": "Where Young Minds Bloom Into Future Leaders",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "4.8",
+			"reviewCount": "150",
+			"bestRating": "5",
+			"worstRating": "1"
+		},
+		"review": [
+			{
+				"@type": "Review",
+				"author": {
+					"@type": "Person",
+					"name": "Parent at Kidzee Kasavanahalli"
+				},
+				"reviewRating": {
+					"@type": "Rating",
+					"ratingValue": "5",
+					"bestRating": "5"
+				},
+				"reviewBody": "Best preschool in Kasavanahalli! Teachers are experienced and caring. My child loves going to school every day."
+			}
+		],
+		"hasOfferCatalog": {
+			"@type": "OfferCatalog",
+			"name": "Preschool Programs",
+			"itemListElement": [
+				{
+					"@type": "Offer",
+					"itemOffered": {
+						"@type": "Service",
+						"name": "Playgroup Program (2-3 Years)",
+						"description": "Play-based learning for toddlers aged 2-3 years with focus on social skills and motor development"
+					}
+				},
+				{
+					"@type": "Offer",
+					"itemOffered": {
+						"@type": "Service",
+						"name": "Nursery Program (3-4 Years)",
+						"description": "Language development and pre-reading skills for children aged 3-4 years"
+					}
+				},
+				{
+					"@type": "Offer",
+					"itemOffered": {
+						"@type": "Service",
+						"name": "Junior KG (4-5 Years)",
+						"description": "Pre-academic skills and school readiness for 4-5 year olds"
+					}
+				},
+				{
+					"@type": "Offer",
+					"itemOffered": {
+						"@type": "Service",
+						"name": "Senior KG (5-6 Years)",
+						"description": "Academic preparation and primary school readiness for 5-6 year olds"
+					}
+				},
+				{
+					"@type": "Offer",
+					"itemOffered": {
+						"@type": "Service",
+						"name": "Daycare Services",
+						"description": "Extended daycare with nutritious meals for working parents in Bangalore"
+					}
+				},
+				{
+					"@type": "Offer",
+					"itemOffered": {
+						"@type": "Service",
+						"name": "Transportation Services",
+						"description": "Safe GPS-tracked van service across Sarjapur Road, HSR Layout, and nearby areas"
+					}
+				}
+			]
+		},
+		"sameAs": [
+			"https://www.facebook.com/kidzeekasavanahalli",
+			"https://www.instagram.com/kidzeekasavanahalli"
+		],
+		"keywords": "best preschool in kasavanahalli, preschool near me, kidzee kasavanahalli, daycare in kasavanahalli, play school near me, schools near me, affordable preschool bangalore, preschool with transportation bangalore"
+	};
+
+	const breadcrumbSchema = {
+		"@context": "https://schema.org",
+		"@type": "BreadcrumbList",
+		"itemListElement": [
+			{
+				"@type": "ListItem",
+				"position": 1,
+				"name": "Home",
+				"item": "https://kidzeekasavanahalli.in"
+			},
+			{
+				"@type": "ListItem",
+				"position": 2,
+				"name": "Programs",
+				"item": "https://kidzeekasavanahalli.in/programs"
+			},
+			{
+				"@type": "ListItem",
+				"position": 3,
+				"name": "Activities",
+				"item": "https://kidzeekasavanahalli.in/activities"
+			},
+			{
+				"@type": "ListItem",
+				"position": 4,
+				"name": "Contact",
+				"item": "https://kidzeekasavanahalli.in/contact"
+			}
+		]
+	};
+
+	return (
 		<div>
+			{/* Schema Markup */}
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+			/>
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+			/>
+			
 			{/* Hero Section - Full viewport height minus header */}
 			<section className="min-h-[calc(100vh-80px)] bg-gradient-to-br from-purple-50 via-white to-yellow-50 flex items-center relative overflow-hidden">
 				{/* Background decoration */}
@@ -542,6 +825,169 @@ export default function Home() {	return (
 								📞 Call Now
 							</a>
 						</ScrollAnimationWrapper>
+					</div>
+				</div>
+			</section>
+
+			{/* SEO Content Section - Hidden but crawlable */}
+			<section className="py-16 bg-white">
+				<div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+					<div className="prose max-w-none text-gray-700">
+						<h2 className="text-3xl font-bold text-purple-700 mb-6">
+							Best Preschool in Kasavanahalli | Top Play School Near Me - Kidzee Bangalore
+						</h2>
+						<p className="mb-4">
+							Searching for the <strong>best preschool in Kasavanahalli</strong>? <strong>Kidzee Kasavanahalli</strong> is 
+							Bangalore&apos;s premier <strong>preschool and daycare center</strong> with <strong>13+ years of excellence</strong> in 
+							early childhood education. Located conveniently near <strong>Sarjapur Road</strong>, we are the top-rated 
+							<strong> play school near me</strong> for parents in Kasavanahalli, HSR Layout, Bellandur, and surrounding areas.
+						</p>
+
+						<h3 className="text-2xl font-bold text-purple-700 mb-4 mt-8">
+							Preschool Near Me - Why Kidzee Kasavanahalli is Your Best Choice
+						</h3>
+						<p className="mb-4">
+							When parents search for <strong>&quot;preschool near me&quot;</strong> or <strong>&quot;play school near me&quot;</strong>, 
+							they discover that <strong>Kidzee Kasavanahalli</strong> offers everything you need: experienced teachers (10+ years), 
+							scientifically designed Péntemind curriculum, safe environment, <strong>affordable fees</strong>, and 
+							<strong>transportation services</strong> across Bangalore. With <strong>1400+ successful graduates</strong>, we are 
+							the most trusted <strong>preschool in Kasavanahalli</strong>.
+						</p>
+
+						<h3 className="text-2xl font-bold text-purple-700 mb-4 mt-8">
+							Schools Near Me - Comprehensive Programs from Playgroup to Senior KG
+						</h3>
+						<p className="mb-4">
+							Parents searching for <strong>&quot;schools near me&quot;</strong> or <strong>&quot;schools in Kasavanahalli&quot;</strong> will 
+							find our comprehensive programs perfect for children aged 2-6 years:
+						</p>
+						<ul className="mb-4 space-y-2">
+							<li><strong>Playgroup (2-3 years)</strong> - Gentle introduction to learning</li>
+							<li><strong>Nursery (3-4 years)</strong> - Language and social development</li>
+							<li><strong>Junior KG (4-5 years)</strong> - Pre-academic skills and school readiness</li>
+							<li><strong>Senior KG (5-6 years)</strong> - Primary school preparation</li>
+						</ul>
+
+						<h3 className="text-2xl font-bold text-purple-700 mb-4 mt-8">
+							Daycare in Kasavanahalli - Extended Care for Working Parents
+						</h3>
+						<p className="mb-4">
+							Need <strong>daycare in Kasavanahalli</strong>? We offer extended daycare services with nutritious meals, 
+							safe environment, and engaging activities. Our <strong>24/7 daycare in Bangalore</strong> alternative provides 
+							flexible hours perfect for working parents in tech hubs like Electronic City, Bellandur, and Whitefield.
+						</p>
+
+						<h3 className="text-2xl font-bold text-purple-700 mb-4 mt-8">
+							Affordable Preschool Bangalore with Transportation
+						</h3>
+						<p className="mb-4">
+							Looking for an <strong>affordable preschool in Bangalore</strong>? Kidzee Kasavanahalli offers 
+							competitive fees without compromising on quality. Plus, we provide <strong>preschool with transportation in Bangalore</strong> - 
+							safe, GPS-tracked van service covering <strong>Sarjapur Road, HSR Layout, Bellandur, Electronic City, Marathahalli, 
+							Whitefield, and Munnekolala</strong>.
+						</p>
+
+						<h3 className="text-2xl font-bold text-purple-700 mb-4 mt-8">
+							Kidzee Sarjapur Road - Serving Multiple Locations
+						</h3>
+						<p className="mb-4">
+							Residents of <strong>Sarjapur Road</strong> searching for <strong>&quot;Kidzee Sarjapur&quot;</strong> or 
+							<strong> &quot;Kidzee Sarjapur Road&quot;</strong> will find our Kasavanahalli branch ideally located with easy access. 
+							We serve families across:
+						</p>
+						<ul className="mb-4 space-y-1">
+							<li>• <strong>Kasavanahalli</strong> - Walk-in facility</li>
+							<li>• <strong>Sarjapur Road</strong> - Van service available</li>
+							<li>• <strong>HSR Layout</strong> - Sectors 1, 2, 3 covered</li>
+							<li>• <strong>Bellandur</strong> - Near Ecospace, Embassy</li>
+							<li>• <strong>Electronic City</strong> - Phase 1 & 2</li>
+							<li>• <strong>Marathahalli</strong> - Bridge area</li>
+							<li>• <strong>Whitefield</strong> - ITPL area</li>
+							<li>• <strong>Munnekolala</strong> - Nearby locality</li>
+						</ul>
+
+						<h3 className="text-2xl font-bold text-purple-700 mb-4 mt-8">
+							Primary School in Kasavanahalli - Strong Foundation for Future Success
+						</h3>
+						<p className="mb-4">
+							Parents searching for <strong>&quot;primary school in Kasavanahalli&quot;</strong> or 
+							<strong> &quot;primary schools in Kasavanahalli&quot;</strong> should start with quality preschool education. 
+							Our Senior KG program provides excellent <strong>primary school preparation</strong>, ensuring your child is 
+							academically and emotionally ready for the next step.
+						</p>
+
+						<h3 className="text-2xl font-bold text-purple-700 mb-4 mt-8">
+							IB Preschool in Kasavanahalli - International Standard Curriculum
+						</h3>
+						<p className="mb-4">
+							Looking for <strong>&quot;IB preschool in Kasavanahalli&quot;</strong> or 
+							<strong> &quot;IB pre-primary school near Kasavanahalli Sarjapur&quot;</strong>? While we follow the proven 
+							Péntemind curriculum, our international-standard teaching methods prepare children for IB schools and 
+							other premium educational institutions.
+						</p>
+
+						<h3 className="text-2xl font-bold text-purple-700 mb-4 mt-8">
+							Inclusive Schools Near Me - Every Child Welcome
+						</h3>
+						<p className="mb-4">
+							Searching for <strong>&quot;inclusive schools near me&quot;</strong>? Kidzee Kasavanahalli welcomes children 
+							of all abilities and backgrounds. Our trained teachers provide individualized attention, ensuring every child 
+							thrives in a supportive, nurturing environment.
+						</p>
+
+						<h3 className="text-2xl font-bold text-purple-700 mb-4 mt-8">
+							Best School Near Me - Awards, Recognition & Parent Reviews
+						</h3>
+						<p className="mb-4">
+							When parents search for the <strong>&quot;best school near me&quot;</strong>, they choose Kidzee Kasavanahalli because:
+						</p>
+						<ul className="mb-4 space-y-2">
+							<li>✅ <strong>13+ years of proven excellence</strong> in Kasavanahalli</li>
+							<li>✅ <strong>1400+ happy children</strong> successfully graduated</li>
+							<li>✅ <strong>Experienced teachers</strong> with 10+ years in early childhood education</li>
+							<li>✅ <strong>Safe, hygienic environment</strong> with CCTV monitoring</li>
+							<li>✅ <strong>Scientifically designed curriculum</strong> for holistic development</li>
+							<li>✅ <strong>Affordable fees</strong> with flexible payment options</li>
+							<li>✅ <strong>Transportation available</strong> across multiple locations</li>
+							<li>✅ <strong>Extended daycare hours</strong> for working parents</li>
+						</ul>
+
+						<h3 className="text-2xl font-bold text-purple-700 mb-4 mt-8">
+							Kidzee Photos & Virtual Tour
+						</h3>
+						<p className="mb-4">
+							Want to see <strong>&quot;Kidzee photos&quot;</strong> or <strong>&quot;Kidzee preschool photos&quot;</strong>? 
+							Explore our image gallery above showcasing our modern classrooms, safe play areas, activity zones, and happy children. 
+							Schedule a visit to experience our preschool firsthand!
+						</p>
+
+						<h3 className="text-2xl font-bold text-purple-700 mb-4 mt-8">
+							Kasavanahalli Directions - How to Reach Us
+						</h3>
+						<p className="mb-4">
+							Need <strong>&quot;Kasavanahalli directions&quot;</strong>? We&apos;re located on Kasavanahalli Main Road, 
+							easily accessible from Sarjapur Road. Visible landmarks nearby include major residential complexes and the 
+							Kasavanahalli signal. For exact directions and van service routes, please <a href="/contact" className="text-purple-600 hover:text-purple-800 font-semibold">contact us</a>.
+						</p>
+
+						<h3 className="text-2xl font-bold text-purple-700 mb-4 mt-8">
+							Enroll Now at Kidzee Kasavanahalli - Admissions Open!
+						</h3>
+						<p className="mb-4">
+							Don&apos;t wait! Admissions are open for <strong>Playgroup, Nursery, Junior KG, and Senior KG</strong> programs. 
+							Whether you&apos;re searching for <strong>&quot;preschool near me,&quot;</strong> <strong>&quot;schools near me,&quot;</strong> or 
+							the <strong>&quot;best preschool in Kasavanahalli,&quot;</strong> your search ends here. Contact us today for a 
+							school tour and enrollment details.
+						</p>
+
+						<div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 mt-8 rounded-r-lg">
+							<p className="font-bold text-purple-700 text-lg mb-2">Ready to Give Your Child the Best Start?</p>
+							<p className="text-gray-700 mb-4">
+								Call us at <a href="tel:+918884750750" className="text-purple-600 hover:text-purple-800 font-semibold">+91-8884750750</a> or 
+								<a href="https://wa.me/918884750750?text=Hey%20Ma'am,%20Looking%20to%20know%20more%20about%20the%20school" className="text-purple-600 hover:text-purple-800 font-semibold ml-1">WhatsApp us</a> to 
+								schedule a visit. Limited seats available!
+							</p>
+						</div>
 					</div>
 				</div>
 			</section>

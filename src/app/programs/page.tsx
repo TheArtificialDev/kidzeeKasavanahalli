@@ -5,14 +5,16 @@ import ScrollAnimationWrapper from '@/components/ScrollAnimationWrapper';
 import FAQSection, { programsFAQs } from '@/components/FAQSection';
 
 export const metadata: Metadata = {
-  title: 'Preschool Programs & Curriculum | Kidzee Kasavanahalli - Playgroup to Senior KG',
-  description: 'Scientifically designed preschool programs at Kidzee Kasavanahalli. Playgroup (2-3yrs), Nursery (3-4yrs), Junior KG (4-5yrs), Senior KG (5-6yrs) with Péntemind curriculum. Best in Bangalore.',
-  keywords: 'preschool programs Kasavanahalli, Péntemind curriculum Bangalore, playgroup nursery junior senior KG, best preschool curriculum Bangalore, scientific child development program, Kidzee programs Kasavanahalli',
+  title: 'Preschool Programs Kasavanahalli | Playgroup, Nursery, Junior KG, Senior KG - Best Curriculum Bangalore',
+  description: 'Best preschool programs in Kasavanahalli, Bangalore. Playgroup (2-3yrs), Nursery (3-4yrs), Junior KG (4-5yrs), Senior KG (5-6yrs) with Péntemind curriculum. Affordable fees, experienced teachers. Enroll now!',
+  keywords: 'preschool programs Kasavanahalli, playgroup near me, nursery school Bangalore, junior kg program, senior kg program, kindergarten Kasavanahalli, Péntemind curriculum, best preschool curriculum Bangalore, preschool near Sarjapur Road, affordable preschool programs, Kidzee programs, early childhood education Bangalore',
   openGraph: {
-    title: 'Preschool Programs & Curriculum | Kidzee Kasavanahalli - Playgroup to Senior KG',
-    description: 'Scientifically designed preschool programs with Péntemind curriculum. Playgroup to Senior KG programs for holistic child development.',
+    title: 'Preschool Programs Kasavanahalli | Playgroup to Senior KG - Kidzee Bangalore',
+    description: 'Comprehensive preschool programs with scientifically designed Péntemind curriculum. Playgroup to Senior KG for ages 2-6 years.',
     url: 'https://kidzeekasavanahalli.in/programs',
+    siteName: 'Kidzee Kasavanahalli',
     images: ['/images/Kidzee New Logo.png'],
+    locale: 'en_IN',
   },
   alternates: {
     canonical: 'https://kidzeekasavanahalli.in/programs',
