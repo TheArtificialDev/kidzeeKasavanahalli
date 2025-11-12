@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /admission
+Allow: /
 
 Sitemap: https://kidzeekasavanahalli.in/sitemap.xml
